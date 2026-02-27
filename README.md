@@ -11,7 +11,7 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 ## 🚨 Threat Hunting and Security Operations
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/buggsjr0/Threat-Hunting-Scenario---Tor)**
-
+- **[Live Threat Hunting: Crosscheck](https://github.com/buggsjr0/Threat-Hunting-Scenario---Tor)**
 <hr/>
 
 ## 🤳 Connect With Me
