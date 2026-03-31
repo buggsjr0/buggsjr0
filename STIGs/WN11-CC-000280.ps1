@@ -22,8 +22,6 @@
     Remote Desktop Services must always prompt a client for passwords upon connection.
     PS C:\> .\STIG-ID: WN11-CC-000280.ps1
 
-## 🚨 Why this matters
-
 If Remote Desktop allows saved passwords:
 
 * Anyone with access to that client machine could **connect to another system without knowing the password**
