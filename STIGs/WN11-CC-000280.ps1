@@ -52,13 +52,11 @@ From there, the attacker could:
 * Install malware
 * Create backdoor accounts
 * Move deeper into the network
-#>
 
-#> Example syntax:
+
+    Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000110).ps1 
     #>
----
-
 
 Run this command:
 
@@ -66,6 +64,3 @@ Run this command:
 New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
   -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
 ```
-
----
-
