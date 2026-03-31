@@ -21,16 +21,6 @@
 .USAGE
     Remote Desktop Services must always prompt a client for passwords upon connection.
     PS C:\> .\STIG-ID: WN11-CC-000280.ps1
-#>
-
-
-New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
-  -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
-
-
-### 🔐 WN11-CC-000280 — Remote Desktop must always prompt for a password
-
----
 
 ## 🚨 Why this matters
 
@@ -45,19 +35,6 @@ This STIG protects against:
 * Credential theft
 * Unauthorized remote access
 * Insider threats
-
----
-
-Run this command:
-
-```powershell
-New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
-  -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
-```
-
----
-
-## ⚠️ What could happen if this is NOT implemented
 
 ### Real-world scenario:
 
@@ -77,16 +54,27 @@ From there, the attacker could:
 * Install malware
 * Create backdoor accounts
 * Move deeper into the network
+#>
+
+
+New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
+  -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
 
 ---
 
-## 💡 Key takeaway
 
-This STIG enforces a simple but powerful rule:
+Run this command:
 
-> **Every Remote Desktop session must require fresh authentication.**
+```powershell
+New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
+  -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
+```
 
-It ensures that **access is always intentional and verified**, not automatic.
+---
+
+## ⚠️ What could happen if this is NOT implemented
+
+
 
 ---
 
