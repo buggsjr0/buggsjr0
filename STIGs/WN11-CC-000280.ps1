@@ -55,15 +55,12 @@ From there, the attacker could:
 #>
 
 
-New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
-  -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
-
 ---
 
 
 Run this command:
 
-```powershell
+```Powershell
 New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Services" `
   -Name "fPromptForPassword" -Value 1 -PropertyType DWord -Force
 ```
