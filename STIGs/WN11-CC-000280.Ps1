@@ -72,9 +72,3 @@ New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Se
 
 ---
 
-## ⚠️ What could happen if this is NOT implemented
-
-
-
----
-
