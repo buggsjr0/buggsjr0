@@ -36,7 +36,7 @@ Result: Data breach + compliance violation + possible mission impact
     Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000110).ps1 
 #>
-Script-
+Run this script:
 
 
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers" -Force
