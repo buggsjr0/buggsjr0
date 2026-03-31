@@ -34,7 +34,7 @@ Sensitive data is exposed without the user realizing it
 Result: Data breach + compliance violation + possible mission impact
 
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000110).ps1 
 #>
 Script-
 
