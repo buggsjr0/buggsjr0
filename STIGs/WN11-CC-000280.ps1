@@ -54,7 +54,9 @@ From there, the attacker could:
 * Move deeper into the network
 #>
 
-
+#> Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000110).ps1 
+    #>
 ---
 
 
