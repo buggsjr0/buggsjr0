@@ -32,16 +32,6 @@ New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Se
 
 ---
 
-
-## 🧠 What this STIG means
-
-This rule requires that **Remote Desktop connections always ask the user to enter their password**, even if credentials were saved previously.
-
-👉 In other words:
-No auto-login. No saved credentials. Always authenticate manually.
-
----
-
 ## 🚨 Why this matters
 
 If Remote Desktop allows saved passwords:
@@ -57,84 +47,6 @@ This STIG protects against:
 * Insider threats
 
 ---
-
-## 🔍 How to check compliance (Step-by-step)
-
-### Method 1: Group Policy Editor
-
-1. Press `Win + R`, type:
-
-   ```
-   gpedit.msc
-   ```
-
-2. Navigate to:
-
-   ```
-   Computer Configuration →
-   Administrative Templates →
-   Windows Components →
-   Remote Desktop Services →
-   Remote Desktop Session Host →
-   Security
-   ```
-
-3. Find:
-   **“Always prompt for password upon connection”**
-
-4. Verify it is set to:
-
-   ```
-   Enabled
-   ```
-
----
-
-### Method 2: Registry Check
-
-1. Open Command Prompt or PowerShell
-
-2. Run:
-
-   ```powershell
-   reg query HKLM\Software\Policies\Microsoft\Windows NT\Terminal Services /v fPromptForPassword
-   ```
-
-3. Confirm:
-
-   ```
-   fPromptForPassword = 1
-   ```
-
----
-
-## 🛠️ How to fix it (Remediation)
-
-### Option 1: Group Policy (Recommended)
-
-1. Open `gpedit.msc`
-2. Go to the same path:
-
-   ```
-   Computer Configuration →
-   Administrative Templates →
-   Windows Components →
-   Remote Desktop Services →
-   Remote Desktop Session Host →
-   Security
-   ```
-3. Double-click:
-   **“Always prompt for password upon connection”**
-4. Set it to:
-
-   ```
-   Enabled
-   ```
-5. Click **Apply → OK**
-
----
-
-### Option 2: PowerShell / Registry Fix
 
 Run this command:
 
@@ -157,7 +69,7 @@ Later:
 * Another employee (or attacker) sits down
 * They open Remote Desktop…
 
-💥 **Instant access to the server — no password required**
+**Instant access to the server — no password required**
 
 From there, the attacker could:
 
