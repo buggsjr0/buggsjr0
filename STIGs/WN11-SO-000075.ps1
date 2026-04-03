@@ -20,41 +20,39 @@
     PowerShell Ver. : 
 
 .USAGE
-Why this matters (the risk)
+Why this matters
 
-Without this setting:
+Without this banner:
 
-Systems could fall back to weak encryption
-Attackers could intercept or decrypt network traffic
-Sensitive data (passwords, files, sessions) could be exposed
+You may lose legal authority to prosecute unauthorized users
+Attackers could claim: “I didn’t know I wasn’t allowed to access this system”
 
-This is especially dangerous on:
+DISA requires this because legal notice = legal protection.
 
-Shared networks
-Government systems
-Any environment with sensitive data
 
-Weak session keys = easier for attackers to break encryption
+### Real-World Scenario (Why this matters)
 
-### Real-world scenario
+An insider accesses a classified system without permission
+You catch them and take legal action
 
-Imagine a user connects to a shared drive on the network:
+In court, they argue:
 
-Without strong session keys:
-An attacker on the same network captures the traffic
-Uses tools to crack weak encryption
-Gains access to:
-Files
-Credentials
-Session tokens
-With this STIG enforced:
-Traffic is encrypted with strong 128-bit keys
-Even if intercepted, it’s practically unreadable
+“There was no warning or policy shown. I didn’t know monitoring was happening.”
 
+If the banner wasn’t configured:
+
+Evidence could be challenged
+Case could be dismissed
+Organization loses legal protection
+
+That’s why this is a CAT II (serious) finding.
 
     Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN11-SO-000075).ps1 
 #>
 Run This command:
 
-Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" -Name RequireSecureNegotiate -Value 1 -Type DWord
+$path = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
+$value = "You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only."
+
+Set-ItemProperty -Path $path -Name LegalNoticeText -Value $value
