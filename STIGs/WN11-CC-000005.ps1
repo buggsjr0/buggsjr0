@@ -19,8 +19,6 @@
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000005).ps1 
 
 
