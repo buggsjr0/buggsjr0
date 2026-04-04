@@ -1,0 +1,62 @@
+<#
+.SYNOPSIS
+    This PowerShell script ensures that Remote Desktop Services must always prompt a client for passwords upon connection.
+
+.NOTES
+    Author          : Jr Buggs
+    LinkedIn        : 
+    GitHub          : github.com/buggsjr0
+    Date Created    : 2026-04-04
+    Last Modified   : 2026-04-04
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000280
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000280).ps1 
+
+What this setting protects against
+
+This STIG enforces re-authentication (IA-11 control) — meaning:
+
+Users must prove identity every time
+No “silent login” using saved credentials
+Reduces risk from:
+Stolen laptops
+Shared systems
+Cached credential abuse
+
+
+Real-world scenario (Why this matters)
+
+Imagine this:
+
+An admin connects to a server via RDP and saves their credentials
+They leave their laptop unattended at a coffee shop
+An attacker opens Remote Desktop and clicks the saved connection
+
+Result:
+
+Instant access to a sensitive server
+No password required
+Potential data theft or system compromise
+
+If this STIG were enabled:
+
+The attacker would be stopped at the login prompt
+They would need the actual password
+#>
+
+Run This Command:
+
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" `
+-Name "fPromptForPassword" -Value 1 -PropertyType DWORD -Force
