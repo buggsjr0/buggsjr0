@@ -1,7 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that Remote Desktop Services must always prompt a client for passwords upon connection.
-
+    This PowerShell script ensures that Camera access from the lock screen must be disabled.
 .NOTES
     Author          : Jr Buggs
     LinkedIn        : 
@@ -11,7 +10,7 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000280
+    STIG-ID         : WN11-CC-000005 
 
 .TESTED ON
     Date(s) Tested  : 
@@ -22,19 +21,20 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000280).ps1 
+    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000005).ps1 
+
 
 What this setting protects against
 
-This STIG enforces re-authentication (IA-11 control) — meaning:
+This STIG helps enforce:
 
-Users must prove identity every time
-No “silent login” using saved credentials
-Reduces risk from:
-Stolen laptops
-Shared systems
-Cached credential abuse
+Physical security controls
+User privacy protection
+Prevents unauthorized access to hardware features before authentication
 
+It ensures:
+
+🔒 “If you’re not logged in, you can’t use sensitive hardware.”
 
 Real-world scenario (Why this matters)
 
@@ -58,5 +58,7 @@ They would need the actual password
 
 Run This Command:
 
-New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" `
--Name "fPromptForPassword" -Value 1 -PropertyType DWORD -Force
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" -Force
+
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" `
+-Name "NoLockScreenCamera" -Value 1 -PropertyType DWORD -Force
