@@ -1,7 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that Windows 11 requires strong sessioni keys (128-bit encryption) for secure communications. 
-
+    This PowerShell script ensures that the required legal notice must be configured to display before console logon
 .NOTES
     Author          : Jr Buggs 
     LinkedIn        : 
