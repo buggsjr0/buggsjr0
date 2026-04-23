@@ -13,7 +13,7 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/buggsjr0/Threat-Hunting-Scenario---Tor)**
 - **[Live Threat Hunting: Crosscheck](https://github.com/buggsjr0/Threat-Hunting-Scenario---Crosscheck)**
-- **[Live Threat Hunting: Port of Entry - Azuki Saga](https://github.com/buggsjr0/Threat-Hunting-Scenario---Port of Entry Azuki Saga)**
+- **[Live Threat Hunting: Port of Entry - Azuki Saga](https://github.com/buggsjr0/Threat-Hunting-Scenario---PortofAzuki)**
 <hr/>
 
 ## 🤳 Connect With Me
