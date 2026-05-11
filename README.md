@@ -17,6 +17,9 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 - **[Live Threat Hunting: Cargo Hold](https://github.com/buggsjr0/Threat-Hunting-Scenario---Port_of_Azuki)**
 <hr/>
 
+## 👾 🐍 Cybersecurity Automation with Python
+
+
 ## 🤳 Connect With Me
 
 [<img align="left" alt="___________ | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
