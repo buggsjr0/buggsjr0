@@ -19,6 +19,7 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 
 ## 🤖 🐍 Cybersecurity Automation with Python
 
+- **[AI threat hunting bot for Defender & Azure ](https://github.com/buggsjr0/Agentic-SOC-Analyst/blob/main/README.md)**
 
 ## 🤳 Connect With Me
 
