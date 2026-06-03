@@ -30,7 +30,7 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 
 [twitter]: https://twitter.com/___________
 [youtube]: https://www.youtube.com/c/___________
-[instagram]: https://www.instagram.com/___________
+[instagram]: https://www.instagram.com/__________
 [linkedin]: https://linkedin.com/in/___________
 
 <!--
