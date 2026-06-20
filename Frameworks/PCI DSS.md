@@ -44,6 +44,20 @@ Where card data lives, moves or gets processed.
 | 8 | Keep systems patched and develop secure applications |
 | 9 | Physically protect systems that store card data |
 
+- 🔍 Regularly Monitor & Test Networks
+
+| No. | Simplified Description|
+|-----| -----|
+| 10 | Log everything and monitor all access to card data  |
+| 11 | Regularly test your security controls and run vulnerability scans |
+
+-  📋 Maintain an Information Security Policy
+
+| No. | Simplified Description|
+|-----| -----|
+| 12 | Have a written security policy everyone follows  |
+
+
 ---
 
 ## 3 Control Baselines<br>
