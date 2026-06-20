@@ -83,11 +83,11 @@ Same alert on CDE System -> Immediate escalation, Compliance team notified, May 
 
 📞  Breach Notification Is Not Optional
 If cardholder data is compromised, PCI DSS requires:<br>
-
--Immediate containment<br>
--Notification to the card brands and acquiring bank<br>
--Potential forensic investigatino (PCI Forensuc Investigator / PFI)<br>
--Strict timelines: urgency is needed<br>
+-
+- Immediate containment<br>
+- Notification to the card brands and acquiring bank<br>
+- Potential forensic investigatino (PCI Forensuc Investigator / PFI)<br>
+- Strict timelines: urgency is needed<br>
 
 ---
 
