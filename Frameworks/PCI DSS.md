@@ -127,39 +127,7 @@ If cardholder data is compromised, PCI DSS requires:<br>
 | Credential stuffing | High volume failed logins on payment portals |
 | Data exfiltration | Large outbound transfers from CDE systems, especially encrypted/compressed |
 
----
-
--🛡️ SI — System & Information Integrity
->Controls that keep systems clean and trustworthy. Mandates the monitoring tools exist at all. 
-
-| Control | Meaning for Analyst |
-| ----- | ----- | 
-| SI-3| Malicious code protection | 
-| SI-4 | System monitoring: IDS/IPS, SIEM |
-| SI-7 | Software and file integrity monitoring|
-| SI-10  | Input validation (injection attacks)|
-
-⚙️ CM — Configuration Management
->Controls that prevent misconfiguration attacks, which are one of the top attack vectors. When theres an alert for an unexpected open port or changed config, CM controls are what was violated. 
-
-| Control | Meaning for Analyst |
-| ----- | ----- | 
-| CM-2| Baseline configurations must exist | 
-| CM-6 | Config settings must be enforced |
-| CM-7 | Least functionality: disable whats not needed|
-| CM-8  | Inventory of systems and components|
----
-
-## 800-53 vs. The Frameworks 
-
-| Framework | Role | Relationship to 800-53
-| ----- | ----- | ----- |
-| NIST 800-37 (RMF)| Risk mgmt process | Tells you to select controls from 800-53 | 
-| NIST 800-61 | Incident response | Lives inside IR family of 800-53 |
-| PCI DSS | Payment card security | Maps heavily to 800-53 controls |
-| NIST CSF  | High level security framework | 800-53 provides the detailed controls behind CSF
->800-53 is the engine that powers all the other frameworks
 
 ---
 ### Key Takeaway 
-NIST 800-53 is the DNA of your SOC. Every tool, log, alert and report written traces back to a control in this catalog. No need to memorize the 1,000+ controls but knowing the key families means understanding not just what you're doing, but why it matters at an organizational and regulatory level. 
+PCI DSS isn't just a compliance checkbox: it's a threat model. It tells you exactly what attackers want (card data), where it lives (the CDE) and what your organiztion has promised to do to protect it. 
