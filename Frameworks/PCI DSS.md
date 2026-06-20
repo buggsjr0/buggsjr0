@@ -91,30 +91,30 @@ If cardholder data is compromised, PCI DSS requires:<br>
 
 ---
 
-## The Controls that matter the most to a SOC Analyst
+## Data Types, Storage and Ecryption 
 
-- 📋 AU — Audit & Accountability
-> The SOC's homebase, every alert you investigate is 800-53 AU controls in action
+| Data Type | Can Store? | Must Encrypt? | 
+| ----- | ----- | ----- |
+| Primary Account Number (PAN): the card number | Yes | Always |
+| Cardholder name | Yes | Recommended |
+| Expiration date| Yes | Recommended |
+| CVV/Security code | Never after auth | N/A |
+| Full magnetic stripe data | Never | N/A
+| PIN/PIN block| Never | N/A
+> If you ever see CVV or full track data in logs, database or transit: this is an automatic critical incident. 
 
-| Control | Meaning for Analyst |
-| ----- | ----- | 
-| AU-2 | Defines which events must be logged | 
-| AU-3 | Specifies what each log entry must contain |
-| AU-6 | Requires log review |
-| AU-9 | Logs must be protected from tampering |
-| AU-11 | Log retention requirements |
-| AU-12 | System must generate audit records |
+---
+- 🚨 PCI Compliance Levels
+> Organizations are tiered by transaction volume
 
-- 🚨 IR — Incident Response
-> Controls that formalize the SOC process. When following a playbook, you're satisfying IR controls
+| Level | Dollar amount | Action taken |
+| ----- | ----- | -----| 
+| Level 1 | 6M+ transaction/year | Full annual audit by QSA (outside auditor) | 
+| Level 2 | 1M - 6M/year | Annual self-assessment questionnaire |
+| Level 3 | 20K-1M/year | Quarterly network scans required |
+| Level 4 | Under 20K/year | Basic self assessment |
 
-| Control | Meaning for Analyst |
-| ----- | ----- | 
-| IR-1 | Org must have an IR policy | 
-| IR-4 | Incident handling procedures must exist |
-| IR-5| Incidents must be tracked and documented|
-| IR-6 | Incidents must be reported to authorities|
-| IR-8 | Incident response plan must be maintained |
+---
 
 - 🔐 AC — Access Control
 >Controls that define who can touch what. When invesitgating privilege escalation or unauthorized access alerts these are AC control failures
