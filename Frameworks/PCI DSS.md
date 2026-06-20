@@ -13,7 +13,7 @@ Where card data lives, moves or gets processed.
 ---
 
 ## 12 Requirements
-- PCI DSS is organized into 6 goals with 12 requirements:
+PCI DSS is organized into 6 goals with 12 requirements:
 
 - 🏗️ Build & Maintain a Secure Network
 
