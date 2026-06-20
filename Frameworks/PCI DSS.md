@@ -104,11 +104,12 @@ If cardholder data is compromised, PCI DSS requires:<br>
 > If you ever see CVV or full track data in logs, database or transit: this is an automatic critical incident. 
 
 ---
-- 🚨 PCI Compliance Levels
+
+🚨 PCI Compliance Levels
 > Organizations are tiered by transaction volume
 
 | Level | Dollar amount | Action taken |
-| ----- | ----- | -----| 
+| ----- | ----- | ----- | 
 | Level 1 | 6M+ transaction/year | Full annual audit by QSA (outside auditor) | 
 | Level 2 | 1M - 6M/year | Annual self-assessment questionnaire |
 | Level 3 | 20K-1M/year | Quarterly network scans required |
