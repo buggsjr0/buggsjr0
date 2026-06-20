@@ -88,6 +88,7 @@ If cardholder data is compromised, PCI DSS requires:
 -Notification to the card brands and acquiring bank
 -Potential forensic investigatino (PCI Forensuc Investigator / PFI)
 -Strict timelines: urgency is needed
+
 ---
 
 ## The Controls that matter the most to a SOC Analyst
