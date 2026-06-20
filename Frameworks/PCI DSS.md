@@ -12,32 +12,13 @@ Where card data lives, moves or gets processed.
 
 ---
 
-## Control Families
-- 800-53 organizes controls into 20 families, each covering a different security domains:
+## 12 Requirements
+- PCI DSS is organized into 6 goals with 12 requirements:
 
-| Abbreviation | Description |
-| ----- | ----- | 
-| AC| Access Control | | 
-| AU | Audit & Accountability |
-| AT | Awareness & Training |
-| CM | Config Mgmt|
-| CP | Contigency Planning |
-| IA	 | Identification & Auth |
-| IR | Incident Response |
-| MA | Maintenance |
-| MP | Media Protection|
-| PT | PII Processing |
-| SI | System & Info Integrity |
-| SC | System & Communication Protection|
-| SA | System & Services Acquistion |
-| PS | Personnel Security|
-| PE | Physical & Evironmental |
-| PL	 | Planning |
-| PM | Program Mgnt |
-| RA | Risk Assessment |
-| CA | Assessment & Authorization |
-| SR | Supply Chain Risk |
-
+- 🏗️ Build & Maintain a Secure Network
+| # | Simplified Descrption |
+|-----| -----|
+| 1 | Install and maintain firewalls around card data |
 ---
 
 ## 3 Control Baselines<br>
