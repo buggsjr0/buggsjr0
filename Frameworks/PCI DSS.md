@@ -1,5 +1,6 @@
 # PCI DSS <br/>
-PCI DSS (Payment Card Industry Data Security Standard) is the set of rules and standards created by card brands (Visa, Matsercard, Amex, Discover) and enforced through contracts and fines. <br>
+
+- PCI DSS (Payment Card Industry Data Security Standard) is the set of rules and standards created by card brands (Visa, Matsercard, Amex, Discover) and enforced through contracts and fines. <br>
 ---
 ## The Cardholder Data Environment (CDE)<br>
 Where card data lives, moves or gets processed. 
@@ -76,12 +77,13 @@ PCI DSS is organized into 6 goals with 12 requirements:
 | ✅ Are we alerting on log tampering?|
 
 ---
+
 ## How PCI changes your alert triage
 
 Normal alert on a random server -> Standard Triage<br>
 Same alert on CDE System -> Immediate escalation, Compliance team notified, May require mandatory reporting<br>
 
-📞  Breach Notification Is Not Optional
+- 📞  Breach Notification Is Not Optional
 If cardholder data is compromised, PCI DSS requires:<br>
 
 - Immediate containment<br>
@@ -105,7 +107,7 @@ If cardholder data is compromised, PCI DSS requires:<br>
 
 ---
 
-🚨 PCI Compliance Levels
+- 🚨 PCI Compliance Levels
 > Organizations are tiered by transaction volume
 
 | Level | Dollar amount | Action taken |
