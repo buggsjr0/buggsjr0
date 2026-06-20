@@ -127,6 +127,8 @@ If cardholder data is compromised, PCI DSS requires:<br>
 | Credential stuffing | High volume failed logins on payment portals |
 | Data exfiltration | Large outbound transfers from CDE systems, especially encrypted/compressed |
 
+---
+
 -🛡️ SI — System & Information Integrity
 >Controls that keep systems clean and trustworthy. Mandates the monitoring tools exist at all. 
 
