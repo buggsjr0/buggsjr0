@@ -76,6 +76,20 @@ PCI DSS is organized into 6 goals with 12 requirements:
 | ✅ Are we alerting on log tampering?|
 
 ---
+## How PCI changes your alert triage
+
+Normal alert on a random server -> Standard Triage<br>
+Same alert on CDE System -> Immediate escalation, Compliance team notified, May require mandatory reporting<br>
+
+📞 Breach Notification Is Not Optional
+If cardholder data is compromised, PCI DSS requires:
+
+-Immediate containment
+-Notification to the card brands and acquiring bank
+-Potential forensic investigatino (PCI Forensuc Investigator / PFI)
+-Strict timelines: urgency is needed
+---
+
 ## The Controls that matter the most to a SOC Analyst
 
 - 📋 AU — Audit & Accountability
