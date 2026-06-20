@@ -21,6 +21,29 @@ Where card data lives, moves or gets processed.
 |-----| -----|
 | 1 | Install and maintain firewalls around card data |
 | 2 | Don't use vendor default passwords (change "admin/admin") |
+
+- 🔐 Protect Cardholder Data
+
+| No. | Simplified Description|
+|-----| -----|
+| 3 | Dont store card data you don't need. Encrypt what you keep |
+| 4 | Encrypt card data when it travels across networks |
+
+- 🛡️ Maintain a Vulnerability Management Program
+
+| No. | Simplified Description|
+|-----| -----|
+| 5 | Use and update antivirus/anti-malware |
+| 6 | Keep systems patched and develop secure applications |
+
+- 👮 Implement Strong Access Control
+
+| No. | Simplified Description|
+|-----| -----|
+| 7 | Only give people access to card data they need (least privilege) |
+| 8 | Keep systems patched and develop secure applications |
+| 9 | Physically protect systems that store card data |
+
 ---
 
 ## 3 Control Baselines<br>
