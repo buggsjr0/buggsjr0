@@ -117,15 +117,15 @@ If cardholder data is compromised, PCI DSS requires:<br>
 
 ---
 
-- 🔐 AC — Access Control
->Controls that define who can touch what. When invesitgating privilege escalation or unauthorized access alerts these are AC control failures
+- 🔐 Common PCI related threats SOC Analysts hunt for 
 
-| Control | Meaning for Analyst |
+| Threat | What it looks like |
 | ----- | ----- | 
-| AC-2 | Account mgmt: who has access | 
-| AC-3  | Access enforcement: least privilege |
-| AC-6 | Least privilege: need-to-know only|
-| AC-17  | Remote access controls|
+| Card skimming malware| Unusual processes on POS systems, outbound connections to unknown IPs | 
+| SQL injection on payment pages | WAF alerts, anomalous DB queries pulling PAN data |
+| Lateral movement toward CDE | Internal host suddenly scanning or connecting to CDE systems |
+| Credential stuffing | High volume failed logins on payment portals |
+| Data exfiltration | Large outbound transfers from CDE systems, especially encrypted/compressed |
 
 -🛡️ SI — System & Information Integrity
 >Controls that keep systems clean and trustworthy. Mandates the monitoring tools exist at all. 
