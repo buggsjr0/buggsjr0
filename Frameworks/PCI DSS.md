@@ -83,7 +83,7 @@ PCI DSS is organized into 6 goals with 12 requirements:
 Normal alert on a random server -> Standard Triage<br>
 Same alert on CDE System -> Immediate escalation, Compliance team notified, May require mandatory reporting<br>
 
-- 📞  Breach Notification Is Not Optional
+📞  Breach Notification Is Not Optional
 If cardholder data is compromised, PCI DSS requires:<br>
 
 - Immediate containment<br>
