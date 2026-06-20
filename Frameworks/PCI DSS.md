@@ -16,9 +16,11 @@ Where card data lives, moves or gets processed.
 - PCI DSS is organized into 6 goals with 12 requirements:
 
 - 🏗️ Build & Maintain a Secure Network
-| # | Simplified Descrption |
+
+| No. | Simplified Description|
 |-----| -----|
 | 1 | Install and maintain firewalls around card data |
+| 2 | Don't use vendor default passwords (change "admin/admin") |
 ---
 
 ## 3 Control Baselines<br>
