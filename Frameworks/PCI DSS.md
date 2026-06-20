@@ -60,14 +60,20 @@ PCI DSS is organized into 6 goals with 12 requirements:
 
 ---
 
-## 3 Control Baselines<br>
-Not every organization needs every control. 800-53 groups them into tiers based on how sensitive your systems are
+## PCI DSS day-to-day in the SOC<br>
+🚨 Requirement 10: Your Best Friend & Biggest Responsibility
 
-| Severity Tiers | (How SOCs Prioritize)
-| ----- | ----- |
-| 🔴  HIGH | Critical systems: national security, healthcare |
-| 🟡  MODERATE  |Most federal systems live here. Significant controls required |
-| 🟢  LOW      | Basic Controls: public facing, low risk systems |
+- Logs must be collected and retained (typically 12 months)
+- Time synchronization (NTP) must be enforced: timestamps matter in investigations
+- Logs must be tamper proof: attackers can't be allowed to cover tracks
+- The analyst is the human layer enforcing this requirement every shift
+
+| Req 10 Checklist for SOC | 
+| ----- |
+| ✅ Are CDE logs flowing into SIEM? |
+| ✅ Are alerts firing on CDE access anomalies? |
+| ✅ Is log retention policy being met? |
+| ✅ Are we alerting on log tampering?|
 
 ---
 ## The Controls that matter the most to a SOC Analyst
