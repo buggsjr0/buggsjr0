@@ -29,41 +29,44 @@ CSF is the dashboard, 800-53 is the engine and 800-37 is the maintenance schedul
 | Format | 6 functions (plain english) | 1,000+ detailed controls | 7 step process |
 | Used for | "How mature are we?" | "What exact safeguard do we implement?" | "How do we manage risk over time?" |
 
-- 🔐 Protect Cardholder Data
+---
 
-| No. | Simplified Description|
-|-----| -----|
-| 3 | Dont store card data you don't need. Encrypt what you keep |
-| 4 | Encrypt card data when it travels across networks |
+## Why this matters for a SOC Analyst
+SOC analyst mostly live in Detect and Respond, but understanding the full wheel is essential to thouroughly comprehending the big picture. 
 
-- 🛡️ Maintain a Vulnerability Management Program
+- 🔍 Identify
+> Asset inventory, knowing what's "normal" baseline traffic
 
-| No. | Simplified Description|
-|-----| -----|
-| 5 | Use and update antivirus/anti-malware |
-| 6 | Keep systems patched and develop secure applications |
+- Can't detect anomalies on a system you don't know exists.
+- SOC tie-in: shadow IT and unmanaged assets results in blind spots in monitoring. 
 
-- 👮 Implement Strong Access Control
+- 🛡️ Protect
+> Firewalls, EDR, MFA, patching
 
-| No. | Simplified Description|
-|-----| -----|
-| 7 | Only give people access to card data they need (least privilege) |
-| 8 | Keep systems patched and develop secure applications |
-| 9 | Physically protect systems that store card data |
+- These are the control that (ideally) stop you from getting an alert
+- SOC tie-in: when Protect fails, that's when you get alerted.
 
-- 🔍 Regularly Monitor & Test Networks
+- 👁️ Detect
+>Home base for SOC analysts
 
-| No. | Simplified Description|
-|-----| -----|
-| 10 | Log everything and monitor all access to card data  |
-| 11 | Regularly test your security controls and run vulnerability scans |
+- SIEM alerts, anomaly detection, threat hunting
+- SOC tie-in: core job description
 
--  📋 Maintain an Information Security Policy
+- 🚒 Respond
+> Triage, containment, escalation.
 
-| No. | Simplified Description|
-|-----| -----|
-| 12 | Have a written security policy everyone follows  |
+-Same activities as NIST 800-61 incident lifecycle
+-SOC tie-in: core job description
 
+- 🔧 Recover
+> Restoring systems, post incident hardening
+
+- Possibly hand off to IT/infrastructure, but can work to verify clean recovery
+
+- 🏛️ Govern
+> Policy, risk-appetite, leadership accountability.
+
+-SOC tie-in: governance decides budget, tooling and escalation procedures
 
 ---
 
