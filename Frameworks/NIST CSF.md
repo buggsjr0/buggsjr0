@@ -1,16 +1,20 @@
 # NIST CSF <br/>
 
-- NIST CSF is not a list of technical controls, but more of a high level framework fir organizing and communicating "how good is our cybersecurity?". Built so non-technical audiences and security engineers can understand the same picture. <br>
-- It's voluntary and used across all industries, which is why it's so widely adopted (government, banks, hospitals, retailers). 
+- NIST CSF is not a list of technical controls, but more of a high level framework for organizing and communicating "how good is our cybersecurity?". Built so non-technical audiences and security engineers can understand the same picture. <br>
+- It's voluntary and used across all industries, not just government which is why it's so widely adopted (banks, hospitals, retailers, startups). 
 ---
-## The Cardholder Data Environment (CDE)<br>
-Where card data lives, moves or gets processed. 
-- Payment terminals<br>
-- Transcactions databases<br>
-- E-comerce servers<br>
-- Any system connected to the above<br>
+## The 6 Core Functions (CSF 2.0)<br>
+| Function | Simplified Description| 
+|-----| -----| 
+| Govern | Set the strategy, policy and accountability  |
+| Identify | Know what you have and what could go wrong |
+| Protect | Put safeguards in place |
+| Detect | Monitor for for IOC's  |
+| Respond | Act on confirmed IOC's |
+| Recover | Restore and continue operatios  |
+
 >[!NOTE]
-> Dependant on your enviornment, CDE is your highest priority zone. Any alert touching CDE systems jumps to the front of the line. 
+> Govern is the big change in CSF 2.0, it sits beneath all of the other functions beacuse risk strategy and policy now apply across the entire lifecycle, not just the beginning. 
 
 ---
 
