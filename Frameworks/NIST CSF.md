@@ -13,7 +13,7 @@
 | Respond | Act on confirmed IOC's | 
 | Recover | Restore and continue operations  |
 
->[!NOTE]
+>[!NOTE] 
 > Govern is the big change in CSF 2.0, it sits beneath all of the other functions beacuse risk strategy and policy now apply across the entire lifecycle, not just the beginning. 
 
 ---
