@@ -18,7 +18,7 @@
 
 ---
 
-## Why NIst CSF is different from 800-53 and 800-37
+## Why NIST CSF is different from 800-53 and 800-37
 CSF is the dashboard, 800-53 is the engine and 800-37 is the maintenance schedule
 
 |  | NIST CSF | NIST 800-53 | NIST 800-37 |
