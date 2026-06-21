@@ -55,7 +55,7 @@ SOC analyst mostly live in Detect and Respond, but understanding the full wheel 
 🚒 Respond
 > Triage, containment, escalation.
 
-- Same activities as NIST 800-61 incident lifecycle
+- Same activities as NIST 800-61 incident lifecycle 
 - SOC tie-in: core job description
 
 🔧 Recover
