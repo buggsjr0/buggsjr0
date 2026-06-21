@@ -11,21 +11,20 @@
 | Protect | Put safeguards in place |
 | Detect | Monitor for for IOC's  |
 | Respond | Act on confirmed IOC's |
-| Recover | Restore and continue operatios  |
+| Recover | Restore and continue operations  |
 
 >[!NOTE]
 > Govern is the big change in CSF 2.0, it sits beneath all of the other functions beacuse risk strategy and policy now apply across the entire lifecycle, not just the beginning. 
 
 ---
 
-## 12 Requirements
-PCI DSS is organized into 6 goals with 12 requirements:
+## Why NIst CSF is different from 800-53 and 800-37
+CSF is the dashboard, 800-53 is the engine and 800-37 is the maintenance schedule
 
-- 🏗️ Build & Maintain a Secure Network
 
-| No. | Simplified Description|
-|-----| -----|
-| 1 | Install and maintain firewalls around card data |
+|  | NIST CSF | NIST 800-53 | NIST 800-37 |
+|-----| -----| ----- | ----- |
+| Altitude | 30,000 ft (strategic | Ground level (technical) | Process level |
 | 2 | Don't use vendor default passwords (change "admin/admin") |
 
 - 🔐 Protect Cardholder Data
