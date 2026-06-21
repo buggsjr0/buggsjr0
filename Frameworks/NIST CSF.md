@@ -5,7 +5,7 @@
 ---
 ## The 6 Core Functions (CSF 2.0)<br>
 | Function | Simplified Description| 
-|-----| -----| 
+|-----| -----|  
 | Govern | Set the strategy, policy and accountability  |
 | Identify | Know what you have and what could go wrong |
 | Protect | Put safeguards in place |
