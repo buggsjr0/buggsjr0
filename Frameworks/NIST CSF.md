@@ -9,7 +9,7 @@
 | Govern | Set the strategy, policy and accountability  |
 | Identify | Know what you have and what could go wrong |
 | Protect | Put safeguards in place |
-| Detect | Monitor for for IOC's  |
+| Detect | Monitor for for IOC's  | 
 | Respond | Act on confirmed IOC's |
 | Recover | Restore and continue operations  |
 
