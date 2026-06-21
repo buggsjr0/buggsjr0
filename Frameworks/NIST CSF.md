@@ -34,36 +34,36 @@ CSF is the dashboard, 800-53 is the engine and 800-37 is the maintenance schedul
 ## Why this matters for a SOC Analyst
 SOC analyst mostly live in Detect and Respond, but understanding the full wheel is essential to thouroughly comprehending the big picture. 
 
-- 🔍 Identify
+🔍 Identify
 > Asset inventory, knowing what's "normal" baseline traffic
 
 - Can't detect anomalies on a system you don't know exists.
 - SOC tie-in: shadow IT and unmanaged assets results in blind spots in monitoring. 
 
-- 🛡️ Protect
+🛡️ Protect
 > Firewalls, EDR, MFA, patching
 
-- These are the control that (ideally) stop you from getting an alert
+These are the control that (ideally) stop you from getting an alert
 - SOC tie-in: when Protect fails, that's when you get alerted.
 
-- 👁️ Detect
+👁️ Detect
 >Home base for SOC analysts
 
 - SIEM alerts, anomaly detection, threat hunting
 - SOC tie-in: core job description
 
-- 🚒 Respond
+🚒 Respond
 > Triage, containment, escalation.
 
 -Same activities as NIST 800-61 incident lifecycle
 -SOC tie-in: core job description
 
-- 🔧 Recover
+🔧 Recover
 > Restoring systems, post incident hardening
 
 - Possibly hand off to IT/infrastructure, but can work to verify clean recovery
 
-- 🏛️ Govern
+🏛️ Govern
 > Policy, risk-appetite, leadership accountability.
 
 -SOC tie-in: governance decides budget, tooling and escalation procedures
