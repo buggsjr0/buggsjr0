@@ -46,10 +46,17 @@ CIS scales your organization's maturity
 
 ## The 18 Controls (Quick Description)
 
-| Controls | Controls |
+| Controls | |
 | ------------- | ------------- |
 | 1. Inventory of Enterprise Assets | 10. Malware Defenses  |
-| Content Cell  | Content Cell  |
+| 2. Inventory of Software Assets | 11. Data Recovery |
+| 3. Data Protection | 12. Network Infrastructure Mgmt |
+| 4. Secure config of Assets| 13. Network Monitoring & Defense |
+| 5. Account Mgmt | 14. Security Awareness Training |
+| 6. Access Control Mgmt | 15. Service Provider Mgmt |
+| 7. Continuous Vulnerability Mgmt | 16. Application Software Security |
+| 8. Audit Log Mgmt | 17. Incident Response Mgmt |
+| 9. Email & Web Browser Protections | 18. Penetration Testing|
 
 - 1 and 2 are "Know what you have" because you cannot protect or detect threats on assets you don't know exist. This is the root cause of breaches CIS data points to. 
 
