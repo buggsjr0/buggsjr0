@@ -21,11 +21,13 @@
 ## Why NIst CSF is different from 800-53 and 800-37
 CSF is the dashboard, 800-53 is the engine and 800-37 is the maintenance schedule
 
-
 |  | NIST CSF | NIST 800-53 | NIST 800-37 |
 |-----| -----| ----- | ----- |
 | Altitude | 30,000 ft (strategic | Ground level (technical) | Process level |
-| 2 | Don't use vendor default passwords (change "admin/admin") |
+| Audience | Executives, board, all industries | Engineers, auditors | Risk/compliance teams |
+| Mandatory | Voluntary (widely adopted) | Mandatory for federal systems | Mandatory for federal systems |
+| Format | 6 functions (plain english) | 1,000+ detailed controls | 7 step process |
+| Used for | "How mature are we?" | "What exact safeguard do we implement?" | "How do we manage risk over time?" |
 
 - 🔐 Protect Cardholder Data
 
