@@ -70,75 +70,14 @@ SOC analyst mostly live in Detect and Respond, but understanding the full wheel 
 
 ---
 
-## PCI DSS day-to-day in the SOC<br>
-🚨 Requirement 10: Your Best Friend & Biggest Responsibility
+## CSF Tiers: "How Mature Are We?"<br>
+CSF also scroes organizational maturity, seperate from the functions
 
-- Logs must be collected and retained (typically 12 months)
-- Time synchronization (NTP) must be enforced: timestamps matter in investigations
-- Logs must be tamper proof: attackers can't be allowed to cover tracks
-- The analyst is the human layer enforcing this requirement every shift
-
-| Req 10 Checklist for SOC | 
-| ----- |
-| ✅ Are CDE logs flowing into SIEM? |
-| ✅ Are alerts firing on CDE access anomalies? |
-| ✅ Is log retention policy being met? |
-| ✅ Are we alerting on log tampering?|
-
----
-
-## How PCI changes your alert triage
-
-Normal alert on a random server -> Standard Triage<br>
-Same alert on CDE System -> Immediate escalation, Compliance team notified, May require mandatory reporting<br>
-
-📞  Breach Notification Is Not Optional
-If cardholder data is compromised, PCI DSS requires:<br>
-
-- Immediate containment<br>
-- Notification to the card brands and acquiring bank<br>
-- Potential forensic investigatino (PCI Forensuc Investigator / PFI)<br>
-- Strict timelines: urgency is needed<br>
-
----
-
-## Data Types, Storage and Ecryption 
-
-| Data Type | Can Store? | Must Encrypt? | 
-| ----- | ----- | ----- |
-| Primary Account Number (PAN): the card number | Yes | Always |
-| Cardholder name | Yes | Recommended |
-| Expiration date| Yes | Recommended |
-| CVV/Security code | Never after auth | N/A |
-| Full magnetic stripe data | Never | N/A
-| PIN/PIN block| Never | N/A
-> If you ever see CVV or full track data in logs, database or transit: this is an automatic critical incident. 
-
----
-
-- 🚨 PCI Compliance Levels
-> Organizations are tiered by transaction volume
-
-| Level | Dollar amount | Action taken |
-| ----- | ----- | ----- | 
-| Level 1 | 6M+ transaction/year | Full annual audit by QSA (outside auditor) | 
-| Level 2 | 1M - 6M/year | Annual self-assessment questionnaire |
-| Level 3 | 20K-1M/year | Quarterly network scans required |
-| Level 4 | Under 20K/year | Basic self assessment |
-
----
-
-- 🔐 Common PCI related threats SOC Analysts hunt for 
-
-| Threat | What it looks like |
-| ----- | ----- | 
-| Card skimming malware| Unusual processes on POS systems, outbound connections to unknown IPs | 
-| SQL injection on payment pages | WAF alerts, anomalous DB queries pulling PAN data |
-| Lateral movement toward CDE | Internal host suddenly scanning or connecting to CDE systems |
-| Credential stuffing | High volume failed logins on payment portals |
-| Data exfiltration | Large outbound transfers from CDE systems, especially encrypted/compressed |
-
+- Tier 1: Partial -> Reactive, ad hoc, no formal process
+- Tier 2: Risk Informed -> Some awareness, inconsistent application
+- Tier 3: Repeatable -> Formal policies, consistently applied
+- Tier 4: Adaptive -> Continuously improving, proactive, agile
 
 ---
 ### Key Takeaway 
-PCI DSS isn't just a compliance checkbox: it's a threat model. It tells you exactly what attackers want (card data), where it lives (the CDE) and what your organiztion has promised to do to protect it. 
+NIST CSF is the "exectuive summary" of cybersecurity. A simple, 6 function wheel (Govern, Identify, Protect, Detect, Respond and Recover) that gives every level of an organization a shared way to talk about security maturity. This 6 function wheel connects day-to-day work to organizational risk, budget decisions and other NIST frameworks (800-37, 800-53 and 800-61) that give CSF its technical foundation. 
