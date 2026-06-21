@@ -39,6 +39,9 @@ CIS scales your organization's maturity
 
 - Mature org, high value target, regulated
 - 23 more safeguards, 153 total
+
+>[!NOTE] 
+> IG1 alone is shown to stop the vast majority of common attacks, which is why its so valuable. It's a "do these specific things and you've blocked most real world attacks"
 ---
 
 ## Why this matters for a SOC Analyst
