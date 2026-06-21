@@ -16,7 +16,7 @@
 >[!NOTE] 
 > CIS Controls tells you exactly which items are critical and immediate steps 
 
----
+--- 
 
 ## Implementation Groups (IGs): Built in Prioritization
 CIS scales your organization's maturity
