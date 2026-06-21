@@ -46,8 +46,9 @@ CIS scales your organization's maturity
 
 ## The 18 Controls (Quick Description)
 
-| ------------- | | ------------- |
-| 1. Inventory of Enterprise Assets  ||  10. Malware Defenses  |
+| Controls | Controls |
+| ------------- | ------------- |
+| 1. Inventory of Enterprise Assets | 10. Malware Defenses  |
 | Content Cell  | Content Cell  |
 
 - 1 and 2 are "Know what you have" because you cannot protect or detect threats on assets you don't know exist. This is the root cause of breaches CIS data points to. 
