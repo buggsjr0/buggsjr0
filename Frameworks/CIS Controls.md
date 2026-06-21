@@ -25,7 +25,7 @@ CIS scales your organization's maturity
 > Essential Cyber Hygiene
 
 - Small org, limited resources
-- Most impactful to avoid being an easy target
+- Most impactful to avoid being an easy target 
 - 56 safeguards
 
 🛡️ IG2
