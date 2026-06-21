@@ -43,11 +43,11 @@ SOC analyst mostly live in Detect and Respond, but understanding the full wheel 
 🛡️ Protect
 > Firewalls, EDR, MFA, patching
 
-These are the control that (ideally) stop you from getting an alert
+- These are the control that (ideally) stop you from getting an alert
 - SOC tie-in: when Protect fails, that's when you get alerted.
 
 👁️ Detect
->Home base for SOC analysts
+> Home base for SOC analysts
 
 - SIEM alerts, anomaly detection, threat hunting
 - SOC tie-in: core job description
@@ -55,8 +55,8 @@ These are the control that (ideally) stop you from getting an alert
 🚒 Respond
 > Triage, containment, escalation.
 
--Same activities as NIST 800-61 incident lifecycle
--SOC tie-in: core job description
+- Same activities as NIST 800-61 incident lifecycle
+- SOC tie-in: core job description
 
 🔧 Recover
 > Restoring systems, post incident hardening
@@ -66,7 +66,7 @@ These are the control that (ideally) stop you from getting an alert
 🏛️ Govern
 > Policy, risk-appetite, leadership accountability.
 
--SOC tie-in: governance decides budget, tooling and escalation procedures
+- SOC tie-in: governance decides budget, tooling and escalation procedures
 
 ---
 
