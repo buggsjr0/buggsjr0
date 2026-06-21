@@ -58,7 +58,8 @@ CIS scales your organization's maturity
 | 8. Audit Log Mgmt | 17. Incident Response Mgmt |
 | 9. Email & Web Browser Protections | 18. Penetration Testing|
 
-- 1 and 2 are "Know what you have" because you cannot protect or detect threats on assets you don't know exist. This is the root cause of breaches CIS data points to. 
+>[!NOTE] 
+> 1 and 2 are "Know what you have" because you cannot protect or detect threats on assets you don't know exist. This is the root cause of breaches CIS data points to. 
 
 🔍 Identify
 > Asset inventory, knowing what's "normal" baseline traffic
