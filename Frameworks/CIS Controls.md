@@ -44,8 +44,13 @@ CIS scales your organization's maturity
 > IG1 alone is shown to stop the vast majority of common attacks, which is why its so valuable. It's a "do these specific things and you've blocked most real world attacks"
 ---
 
-## Why this matters for a SOC Analyst
-SOC analyst mostly live in Detect and Respond, but understanding the full wheel is essential to thouroughly comprehending the big picture. 
+## The 18 Controls (Quick Description)
+
+| ------------- | | ------------- |
+| 1. Inventory of Enterprise Assets  ||  10. Malware Defenses  |
+| Content Cell  | Content Cell  |
+
+- 1 and 2 are "Know what you have" because you cannot protect or detect threats on assets you don't know exist. This is the root cause of breaches CIS data points to. 
 
 🔍 Identify
 > Asset inventory, knowing what's "normal" baseline traffic
