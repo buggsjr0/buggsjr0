@@ -77,6 +77,7 @@ CIS scales your organization's maturity
 >[!NOTE] 
 > If logs aren't flowing or not detailed enough, then an analyst can't follow and working blind
 
+
 🛡️ CIS Control 13: Network Monitoring & Defense
 > Essential controls for analyst
 
@@ -91,6 +92,7 @@ CIS scales your organization's maturity
 >[!NOTE] 
 > 13.11 is vital. Alert fatigue is real and this control tells orgs to tune detections so analysts aren't drowning in noise. Limit false positives
 
+
 🚨 CIS Control 17: Incident Response Management
 > Mirrors NIST 800-61, but more action oriented
 
@@ -104,6 +106,7 @@ CIS scales your organization's maturity
 >[!NOTE] 
 > 17.9 is key. It defines when something becomes an "incident" vs just an event, your triage decision tree
 
+
 🔐 Control 5 & 6: Account & Access Management
 > Where most real world breaches start
 
@@ -116,6 +119,7 @@ CIS scales your organization's maturity
 | 6.5 | Require MFA for admin access |
 >[!NOTE] 
 > 6.2 (revoking access) is one of the most common real world failure points. A large portion of insider threat and ex-employee incidents trace back to this. When there's an alert from a "terminated or "should be disabled" account, thats CIS 6.2 failure in action.
+
 
 🦠 Control 10 — Malware Defenses
 
