@@ -132,7 +132,7 @@ CIS scales your organization's maturity
 
 ---
 
-## Why CIS Controls Feel More "SOC-Friendly than NIST 800-53
+## Why CIS Controls Feel More "SOC-Friendly" than NIST 800-53
 
 |  | NIST 800-53 | CIS Controls| 
 |-----| -----| ----- |
