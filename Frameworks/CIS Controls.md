@@ -132,24 +132,31 @@ CIS scales your organization's maturity
 
 ---
 
-- Possibly hand off to IT/infrastructure, but can work to verify clean recovery
+## Why CIS Controls Feel More "SOC-Friendly than NIST 800-53
 
-🏛️ Govern
-> Policy, risk-appetite, leadership accountability.
+|  | NIST 800-53 | CIS Controls| 
+|-----| -----| ----- |
+| Tone| Lehal/compliance language| Practical, action oriented |
+| Length | 1,000+ controls, dense | 153 safeguards, digestible |
+| Prioritization | Flat, everything in a baseline is required | Built in (IG1 -> IG2 -> IG3) |
+| Origin | Government risk mgmt | Real breach/attack data|
+| Used for | "Here's the law" | "Here's what works" | 
 
-- SOC tie-in: governance decides budget, tooling and escalation procedures
 
 ---
 
-## CSF Tiers: "How Mature Are We?"<br>
-CSF also scroes organizational maturity, seperate from the functions
+## Mapping Cheat Sheet"<br>
 
-- Tier 1: Partial -> Reactive, ad hoc, no formal process
-- Tier 2: Risk Informed -> Some awareness, inconsistent application
-- Tier 3: Repeatable -> Formal policies, consistently applied
-- Tier 4: Adaptive -> Continuously improving, proactive, agile
+- NIST CSF "Detect"  ≈  CIS Controls 8 + 13
+- NIST CSF "Respond" ≈  CIS Control 17
+- NIST CSF "Protect" ≈  CIS Controls 4, 5, 6, 9, 10
+- NIST CSF "Identify"≈  CIS Controls 1, 2, 7
+- NIST 800-53 AU     ≈  CIS Control 8
+- NIST 800-53 IR     ≈  CIS Control 17
+- NIST 800-53 AC     ≈  CIS Controls 5, 6
+- NIST 800-61        ≈  CIS Control 17 (operationalized)
 
 ---
 ### Key Takeaway 
-NIST CSF is the "exectuive summary" of cybersecurity. A simple, 6 function wheel (Govern, Identify, Protect, Detect, Respond and Recover) that gives every level of an organization a shared way to talk about security maturity. This 6 function wheel connects day-to-day work to organizational risk, budget decisions and other NIST frameworks (800-37, 800-53 and 800-61) that give CSF its technical foundation. 
+CIS Controls are the prioritized, attacker-informed action list that sits between the strategic altitude of NIST CSF and the exhaustive technical depth of NIST 800-53. As a SOC analyst, it's arguably the most operationally useful framework of all of them: Controls 8 (logging), 13 (monitoring), 17 (incident response), and 5/6 (access control) map almost directly onto daily workflow. While NIST frameworks tell you what's required for compliance, CIS Controls tells you what actually stops real attacks and in what order to build it.
 
