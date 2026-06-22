@@ -136,7 +136,7 @@ CIS scales your organization's maturity
 
 |  | NIST 800-53 | CIS Controls| 
 |-----| -----| ----- |
-| Tone| Lehal/compliance language| Practical, action oriented |
+| Tone| Legal/compliance language| Practical, action oriented |
 | Length | 1,000+ controls, dense | 153 safeguards, digestible |
 | Prioritization | Flat, everything in a baseline is required | Built in (IG1 -> IG2 -> IG3) |
 | Origin | Government risk mgmt | Real breach/attack data|
