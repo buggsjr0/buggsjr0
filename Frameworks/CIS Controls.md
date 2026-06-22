@@ -61,32 +61,72 @@ CIS scales your organization's maturity
 >[!NOTE] 
 > 1 and 2 are "Know what you have" because you cannot protect or detect threats on assets you don't know exist. This is the root cause of breaches CIS data points to. 
 
-🔍 Identify
-> Asset inventory, knowing what's "normal" baseline traffic
+---
+## The Controls That Matter Most to a SOC Analyst
 
-- Can't detect anomalies on a system you don't know exists.
-- SOC tie-in: shadow IT and unmanaged assets results in blind spots in monitoring. 
+📋 CIS Control 8: Audit Log Management
+> Bread and Butter: same spirit as NIST AU family
 
-🛡️ Protect
-> Firewalls, EDR, MFA, patching
+| Safeguard | SOC Meaning| 
+|-----| -----|  
+| 8.1 | Establish audit log management process |
+| 8.2 | Collect audit logs from all systems |
+| 8.3 | Collect detailed logs  |
+| 8.9 | Centralize log collection (SIEM)  |  
+| 8.11 | Conduct audit log reviews to detect anomalies | 
+>[!NOTE] 
+> If logs aren't flowing or not detailed enough, then an analyst can't follow and working blind
 
-- These are the control that (ideally) stop you from getting an alert
-- SOC tie-in: when Protect fails, that's when you get alerted.
+🛡️ CIS Control 13: Network Monitoring & Defense
+> Essential controls for analyst
 
-👁️ Detect
-> Home base for SOC analysts
+| Safeguard | SOC Meaning| 
+|-----| -----|  
+| 13.1 | Centralize security event alerting |
+| 13.2 | Deploy host-based IDS |
+| 13.3 | Deploy network-based IDS  |
+| 13.6 | Collect network traffic flow logs |  
+| 13.7 | Deploy EDR on endpoints | 
+| 13.11 | Tune your security event alerting thresholds | 
+>[!NOTE] 
+> 13.11 is vital. Alert fatigue is real and this control tells orgs to tune detections so analysts aren't drowning in noise. Limit false positives
 
-- SIEM alerts, anomaly detection, threat hunting
-- SOC tie-in: core job description
+🚨 CIS Control 17: Incident Response Management
+> Mirrors NIST 800-61, but more action oriented
 
-🚒 Respond
-> Triage, containment, escalation.
+| Safeguard | SOC Meaning| 
+|-----| -----|  
+| 17.1 | Designate IR personnel |
+| 17.4 | Establish and maintain an IR process |
+| 17.5 | Assign roles and responsibilities  |
+| 17.7 | Conduct routine IR exercises (tabletop drills) |  
+| 17.9 | Establish and maintain security incident thresholds |
+>[!NOTE] 
+> 17.9 is key. It defines when something becomes an "incident" vs just an event, your triage decision tree
 
-- Same activities as NIST 800-61 incident lifecycle 
-- SOC tie-in: core job description
+🔐 Control 5 & 6: Account & Access Management
+> Where most real world breaches start
 
-🔧 Recover
-> Restoring systems, post incident hardening
+| Safeguard | SOC Meaning| 
+|-----| -----|  
+| 5.2 | Unique passwords (no shared accounts) |
+| 5.3 | Disable dormant accounts |
+| 6.1 | Establish access granting process |
+| 6.2 | Establish access/revoking process |  
+| 6.5 | Require MFA for admin access |
+>[!NOTE] 
+> 6.2 (revoking access) is one of the most common real world failure points. A large portion of insider threat and ex-employee incidents trace back to this. When there's an alert from a "terminated or "should be disabled" account, thats CIS 6.2 failure in action.
+
+🦠 Control 10 — Malware Defenses
+
+| Safeguard | SOC Meaning| 
+|-----| -----|  
+| 10.1 | Deploy anti-malware software |
+| 10.2 | Configure automatic updates |
+| 10.5 | Enable anti-exploitation features |
+| 10.7 | Use behavior-based detection (not just signatures) |  
+
+---
 
 - Possibly hand off to IT/infrastructure, but can work to verify clean recovery
 
