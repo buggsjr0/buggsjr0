@@ -51,21 +51,37 @@ GDPR states organizations must have a legitimate reason for holding personal dat
 | 4 | Vital interests | Protecting someone's life |
 | 5 | Public Task | Official government function |
 | 6 | Legitimate interest | Organizational need |
+>When investigating an incident involving personal data, understanding why the organization holds that data helps scope the breach and its GDPR impact. 
 
+---
 
-- 🔐 Protect Cardholder Data
+## The 8 individual Rights
+Under GDPR, every EU resident has these rights over their data:
 
-| No. | Simplified Description|
+| Right    | Explanation  | SOC Relevance | 
+|-----|-----| -----|
+| Right to be informed | Know what data is collected and why | Privacy notice required|
+| Right of access | Request copy of their data | Can't be obstructed during incident  |
+| Right to rectification | Fix inaccurate data | Data integrity matters |
+| Right to erasure | Ability to be forgotten | Deleted, but may not be gone from backups |
+| Right to restrict processing | Pause how data is used | Could impact active investigations |
+| Right to data portability | Data in a usable format | Secure transfer requirements |
+| Right to object | Stop certain data processing | Affects marketing/profiling systems |
+| Right not to be profiled | No automated decisions affecting them | AI/ML systems under scrutiny |
+>When investigating an incident involving personal data, understanding why the organization holds that data helps scope the breach and its GDPR impact. 
+
+---
+## 72 Hour Breach Notification Rule
+Possibly the most operationally cirtical GDPR requirement for SOC analysts
+
+| | Breach Occurs|
 |-----| -----|
-| 3 | Dont store card data you don't need. Encrypt what you keep |
-| 4 | Encrypt card data when it travels across networks |
-
-- 🛡️ Maintain a Vulnerability Management Program
-
-| No. | Simplified Description|
-|-----| -----|
-| 5 | Use and update antivirus/anti-malware |
-| 6 | Keep systems patched and develop secure applications |
+| T+0 | Breach detected and confirmed |
+| T+24 | Internal escalation: Legal, Privacy, CISO, Leadsherip notified|
+| T+48 | Draft notification being prepared. Scope of personal data affected assessment |
+| T+72 | Supervisory authority must be notified (ICO in UK, CNIL in France, BfDI in Germany) |
+>[!NOTE]
+>If individuals at high risk, notify them as well. No fixed deadline, but "without undue delay"  
 
 - 👮 Implement Strong Access Control
 
