@@ -151,6 +151,26 @@ DPAs also run sector sweeps <br>
 
 </details>
 
+<details>
+<summary>Certifications (Voluntary) </summary>
+Europrivacy - EDPB approved
+ISO/IEC 27701 - privacy mgmt
+National schemes (CNIL, etc.)
+</details>
+
+<details>
+<summary>Mandatory Obligations </summary>
+DPO if required (Art. 37)
+DPIA for high risk (Art. 35)
+Record of processing (Art. 30)
+</details>
+
+<details>
+<summary>What Companies Actually Do </summary>
+Internal annual privacy review
+Hire a consultant for gap audits
+Certify if customers demand it
+</details>
 
 ---
 
