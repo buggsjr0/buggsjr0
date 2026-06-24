@@ -58,7 +58,7 @@ GDPR states organizations must have a legitimate reason for holding personal dat
 ## The 8 individual Rights
 Under GDPR, every EU resident has these rights over their data:
 
-| Right    | Explanation  | SOC Relevance | 
+| Right | Explanation  | SOC Relevance | 
 |-----|-----| -----|
 | Right to be informed | Know what data is collected and why | Privacy notice required|
 | Right of access | Request copy of their data | Can't be obstructed during incident  |
@@ -91,31 +91,39 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 |-----| ----- | ----- |
 | Data Controller | The organization: decides why and how data is processed | Who gets notified in a breach? Controller is responsible|
 | Data Processor | Vendor/third party processing data on tour behalf (cloud providers, SaaS tools) | Breach at processor still triggers Controller's obligations |
+>[!NOTE]
 >If your SIEM vendor, EDR vendor or cloud logging provider gets breached and they hold your organizations personal data, the 72 hour clock may still start. Third party breach monitoring is important 
 
-- 
+## GDPR Fines
 
-| No. | Simplified Description|
+|Tier| Simplified Description|
 |-----| -----|
-| 10 | Log everything and monitor all access to card data  |
-| 11 | Regularly test your security controls and run vulnerability scans |
+| 1 | Up to 10 million Euros or 2% of global annual revenue (Whichever is higher)   |
+| 2 | Up to 20 million Euros or 4% of global annual revenue (Whichever is higher) |
 
--  📋 Maintain an Information Security Policy
+- Real World Examples
 
-| No. | Simplified Description|
-|-----| -----|
-| 12 | Have a written security policy everyone follows  |
+| Company | Fine (Euros) | Reason |
+|-----| -----| ----- |
+| Meta | 1.2 billion | Data transfer violations |
+| Amazon | 746 million | Advertising data misuse |
+| Google | 50 million | Consent Violations |
+| British Airways | 22 million | Security breach |
+| Marriott | 18.4 million | Breach exposing guest data |
 
 
 ---
 
-## PCI DSS day-to-day in the SOC<br>
-🚨 Requirement 10: Your Best Friend & Biggest Responsibility
+## GDPR vs Other frameworks<br>
 
-- Logs must be collected and retained (typically 12 months)
-- Time synchronization (NTP) must be enforced: timestamps matter in investigations
-- Logs must be tamper proof: attackers can't be allowed to cover tracks
-- The analyst is the human layer enforcing this requirement every shift
+| | | GDPR | PCI DSS | NIST 800-53 |
+| ----- |-----| -----| ----- |
+| Focus | Privacy of personal data | Payment card security | General security controls
+| Mandatory | Yes (if EU data involved) | Yes (if process cards)  | Yes (Federal systems)
+| 72hr breach notification | Yes | Yes (card brands) | Varies |
+| Fines | Up to 4% global revenue| Fines + card processing suspension | Varies |
+| Who owns it | EU regulators | Card brands (Visa, Mastercard etc.) | U.S. Government (NIST)
+
 
 | Req 10 Checklist for SOC | 
 | ----- |
@@ -180,4 +188,4 @@ If cardholder data is compromised, PCI DSS requires:<br>
 
 ---
 ### Key Takeaway 
-PCI DSS isn't just a compliance checkbox: it's a threat model. It tells you exactly what attackers want (card data), where it lives (the CDE) and what your organiztion has promised to do to protect it. 
+GDPR transforms privacy into a security operations responsibility. Every time an alert touches a system that hold EU personal data, a 72 hour clock could begin it's countdown. Understanding GDPR means a faster triage, better documentation, escalate smarter and treat personal data with the care the law demands. 
