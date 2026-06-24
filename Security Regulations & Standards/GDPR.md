@@ -116,7 +116,7 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 
 ## GDPR vs Other frameworks<br>
 
-| | | GDPR | PCI DSS | NIST 800-53 |
+| | GDPR | PCI DSS | NIST 800-53 |
 | ----- |-----| -----| ----- |
 | Focus | Privacy of personal data | Payment card security | General security controls
 | Mandatory | Yes (if EU data involved) | Yes (if process cards)  | Yes (Federal systems)
