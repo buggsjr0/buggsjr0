@@ -186,4 +186,4 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 
 ---
 ### Key Takeaway 
-GDPR transforms privacy into a security operations responsibility. Every time an alert touches a system that hold EU personal data, a 72 hour clock could begin it's countdown. Understanding GDPR means a faster triage, better documentation, escalate smarter and treat personal data with the care the law demands. 
+GDPR transforms privacy into a right and security operations responsibility. Every time an alert touches a system that hold EU personal data, a 72 hour clock could begin it's countdown. Understanding GDPR means honoring user rights, a faster triage, better documentation and process data lawfully. 
