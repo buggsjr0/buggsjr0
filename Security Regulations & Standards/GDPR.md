@@ -4,9 +4,9 @@
 - It's an EU law, but it's reach is global. If you handle EU data it applies to you. 
 ---
 ## Key GDPR concepts<br>
-Broad definition of personal data: 
+- Broad definition of personal data: 
 
-|  | |
+|  | Data Types|
 |-----| -----|
 | 1 | Name |
 | 2 | Email address |
@@ -14,20 +14,29 @@ Broad definition of personal data:
 | 4 | Home address |
 | 5 | Date of birth |
 | 6 | Social Security / ID# |
-| 7 | IP Address
-| 8 | Cookie identifiers
-| 9 | Device IDs
-| 10 | Location data
-| 11 | Behavioral patterns
-| 12 | Pseudonymized data (if re-linkable)
+| 7 | IP Address |
+| 8 | Cookie identifiers |
+| 9 | Device IDs |
+| 10 | Location data |
+| 11 | Behavioral patterns |
+| 12 | Pseudonymized data (if re-linkable) |
 > SIEM logs, PCAP data and endpoint telemetry are full of personal data under GDPR
----
-- Payment terminals<br>
-- Transcactions databases<br>
-- E-comerce servers<br>
-- Any system connected to the above<br>
+
+- Some data gets a higher level of protetion
+
+|Category  | Examples|
+|-----| -----|
+| Health Data | Medical records, prescriptions, diagnoses|
+| Biometric data | Fingerprints, facial recognition, voiceprints |
+| Genetic Data | DNA profiles |
+| Race/ethnicity | Any racial or ethnic origin identifiers |
+| Political opinions | Voting records, party affiliation |
+| Religios beliefs| Church membership, faith based data |
+| Sexual orientation | Any related personal identifiers |
+| Criminal records | Conviction, charges |
+
 >[!NOTE]
-> Dependant on your enviornment, CDE is your highest priority zone. Any alert touching CDE systems jumps to the front of the line. 
+>A breach involving any special category data is treated more severely under GDPR and may require mandatory escalation, legal involvement and regulatory notification
 
 ---
 
