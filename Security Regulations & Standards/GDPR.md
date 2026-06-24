@@ -142,6 +142,17 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 
 
 ---
+## Audit and Certifications
+<details>
+<summary>Regular Audits</summary>
+- Reactive, triggered by complaints. 
+- Reported by breaches
+- DPAs also run sector sweeps
+
+</details>
+
+
+---
 
 ## GDPR vs Other frameworks<br>
 
