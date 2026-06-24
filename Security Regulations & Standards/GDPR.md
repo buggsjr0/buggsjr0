@@ -86,6 +86,7 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 ---
 ## What triggers the 72 hour clock?
 | | Triggers notification|
+| ----- | ----- |
 | ✅ | Unauthorized access to personal data |
 | ✅ | Ransomware encrypting personal data |
 | ✅ | Data exfiltration |
