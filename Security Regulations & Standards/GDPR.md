@@ -77,7 +77,7 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 | | Breach Occurs|
 |-----| -----|
 | T+0 | Breach detected and confirmed |
-| T+24 | Internal escalation: Legal, Privacy, CISO, Leadsherip notified|
+| T+24 | Internal escalation: Legal, Privacy, CISO, Leadership notified|
 | T+48 | Draft notification being prepared. Scope of personal data affected assessment |
 | T+72 | Supervisory authority must be notified (ICO in UK, CNIL in France, BfDI in Germany) |
 >[!NOTE]
