@@ -31,7 +31,7 @@
 | Genetic Data | DNA profiles |
 | Race/ethnicity | Any racial or ethnic origin identifiers |
 | Political opinions | Voting records, party affiliation |
-| Religios beliefs| Church membership, faith based data |
+| Religious beliefs | Church membership, faith based data |
 | Sexual orientation | Any related personal identifiers |
 | Criminal records | Conviction, charges |
 
@@ -39,7 +39,21 @@
 >A breach involving any special category data is treated more severely under GDPR and may require mandatory escalation, legal involvement and regulatory notification
 
 ---
+## 7 GDPR Principles
 
+| | |Category  | Examples|
+|-----|-----| -----|
+| 1 | Lawfulness, Fairness, Transparency | Have a legal basis. Tell people clearly |
+| 2 | Purpose Limitation | Collect data for one specific reason |
+| 3 | Data Minimization | Only collect what is needed |
+| 4 | Accuracy | Keep data accurate and up to date |
+| 5 | Storage Limitation | Don't keep data longer than necessary |
+| 6 | Integrity & Confidentiality | Protect data with appropriate security |
+| 7 | Accountabiliity | You must be able to prove you're doing all the above |
+>[!NOTE]
+>Documentation is what makes accountability real. 
+
+---
 ## Lawful Basis
 GDPR states organizations must have a legitimate reason for holding personal data:
 
