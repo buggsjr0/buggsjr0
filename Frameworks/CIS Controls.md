@@ -14,7 +14,7 @@
 | Number of Items | 6 functions | 1,000+ controls | 18 controls, 153 safeguards |
 
 >[!NOTE] 
-> CIS Controls tells you exactly which items are critical and immediate steps 
+> CIS Controls tells you exactly which items are critical and immediate steps  
 
 --- 
 
