@@ -145,31 +145,31 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 ## Audit and Certifications
 <details>
 <summary>Regular Audits</summary>
-Reactive, triggered by complaints. <br>
-Reported by breaches <br>
-DPAs also run sector sweeps <br>
+- Reactive, triggered by complaints. <br>
+- Reported by breaches <br>
+- DPAs also run sector sweeps <br>
 
 </details>
 
 <details>
 <summary>Certifications (Voluntary) </summary>
-Europrivacy - EDPB approved<br>
-ISO/IEC 27701 - privacy mgmt<br>
-National schemes (CNIL, etc.)<br>
+- Europrivacy - EDPB approved<br>
+- ISO/IEC 27701 - privacy mgmt<br>
+- National schemes (CNIL, etc.)<br>
 </details>
 
 <details>
 <summary>Mandatory Obligations </summary>
-DPO if required (Art. 37)<br>
-DPIA for high risk (Art. 35)<br>
-Record of processing (Art. 30)<br>
+- DPO if required (Art. 37)<br>
+- DPIA for high risk (Art. 35)<br>
+- Record of processing (Art. 30)<br>
 </details>
 
 <details>
 <summary>What Companies Actually Do </summary>
-Internal annual privacy review<br>
-Hire a consultant for gap audits<br>
-Certify if customers demand it<br>
+- Internal annual privacy review<br>
+- Hire a consultant for gap audits<br>
+- Certify if customers demand it<br>
 </details>
 
 ---
