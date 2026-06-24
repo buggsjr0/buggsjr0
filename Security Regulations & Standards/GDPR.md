@@ -40,15 +40,18 @@
 
 ---
 
-## 12 Requirements
-PCI DSS is organized into 6 goals with 12 requirements:
+## Lawful Basis
+GDPR states organizations must have a legitimate reason for holding personal data:
 
-- 🏗️ Build & Maintain a Secure Network
+|     | Category  | Examples | 
+|-----|-----| -----|
+| 1 | Consent | Person explicitly agreed |
+| 2 | Contract| Need to fulfill a service |
+| 3 | Legal obligation | Required by law |
+| 4 | Vital interests | Protecting someone's life |
+| 5 | Public Task | Official government function |
+| 6 | Legitimate interest | Organizational need |
 
-| No. | Simplified Description|
-|-----| -----|
-| 1 | Install and maintain firewalls around card data |
-| 2 | Don't use vendor default passwords (change "admin/admin") |
 
 - 🔐 Protect Cardholder Data
 
