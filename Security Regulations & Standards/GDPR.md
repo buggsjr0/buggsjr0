@@ -10,7 +10,7 @@
 |-----| -----|
 | 1 | Name |
 | 2 | Email address |
-| 3 | Phone number |
+| 3 | Phone number | 
 | 4 | Home address |
 | 5 | Date of birth |
 | 6 | Social Security / ID# |
