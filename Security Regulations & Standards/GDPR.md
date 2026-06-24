@@ -84,7 +84,21 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 >If individuals at high risk, notify them as well. No fixed deadline, but "without undue delay"
 
 ---
+## What triggers the 72 hour clock?
+| | Triggers notification|
+| ✅ | Unauthorized access to personal data |
+| ✅ | Ransomware encrypting personal data |
+| ✅ | Data exfiltration |
+| ✅ | Accidental exposure of personal data |
+| ✅ | Lost/stolen device containing personal data |
+| ✅ | Insider threat accessing data without authorization |
+| ❌ | Attack on system with no personal data |
+| ❌ | DDoS with no data access |
+| ❌ | Incident fully contained with no data exposure | 
+>[!NOTE]
+>The clock starts when the organization becomes aware, not when it can fully confirm scope. This is why SOC triage speed is a GDPR compliance issue. 
 
+---
 ## GDPR's Two Enforcers
 
 | Role | Who They Are | SOC Importance |
