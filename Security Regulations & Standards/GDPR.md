@@ -8,7 +8,7 @@
 
 |  | Data Types|
 |-----| -----|
-| 1 | Name |
+| 1 | Name | 
 | 2 | Email address |
 | 3 | Phone number | 
 | 4 | Home address |
