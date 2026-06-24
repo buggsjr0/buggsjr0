@@ -81,17 +81,20 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 | T+48 | Draft notification being prepared. Scope of personal data affected assessment |
 | T+72 | Supervisory authority must be notified (ICO in UK, CNIL in France, BfDI in Germany) |
 >[!NOTE]
->If individuals at high risk, notify them as well. No fixed deadline, but "without undue delay"  
+>If individuals at high risk, notify them as well. No fixed deadline, but "without undue delay"
 
-- 👮 Implement Strong Access Control
+---
 
-| No. | Simplified Description|
-|-----| -----|
-| 7 | Only give people access to card data they need (least privilege) |
-| 8 | Keep systems patched and develop secure applications |
-| 9 | Physically protect systems that store card data |
+## GDPR's Two Enforcers
 
-- 🔍 Regularly Monitor & Test Networks
+| Role | Who They Are | SOC Importance |
+|-----| ----- | ----- |
+| Data Controller | The organization: decides why and how data is processed | Who gets notified in a breach? Controller is responsible|
+| Data Processor | Vendor/third party processing data on tour behalf (cloud providers, SaaS tools) |
+ Breact at processor still triggers Controller's obligations |
+>If your SIEM vendor, EDR vendor or cloud logging provider gets breached and they hold your organizations personal data, the 72 hour clock may still start. Third party breach monitoring is important 
+
+- 
 
 | No. | Simplified Description|
 |-----| -----|
