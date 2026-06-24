@@ -41,7 +41,7 @@
 ---
 ## 7 GDPR Principles
 
-| | |Category  | Examples|
+|  |Category  | Examples|
 |-----|-----| -----|
 | 1 | Lawfulness, Fairness, Transparency | Have a legal basis. Tell people clearly |
 | 2 | Purpose Limitation | Collect data for one specific reason |
