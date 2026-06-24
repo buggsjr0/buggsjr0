@@ -68,7 +68,7 @@ Under GDPR, every EU resident has these rights over their data:
 | Right to data portability | Data in a usable format | Secure transfer requirements |
 | Right to object | Stop certain data processing | Affects marketing/profiling systems |
 | Right not to be profiled | No automated decisions affecting them | AI/ML systems under scrutiny |
->When investigating an incident involving personal data, understanding why the organization holds that data helps scope the breach and its GDPR impact. 
+
 
 ---
 ## 72 Hour Breach Notification Rule
