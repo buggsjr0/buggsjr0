@@ -136,9 +136,9 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 |-----| -----| ----- |
 | Meta | 1.2 billion | Data transfer violations |
 | Amazon | 746 million | Advertising data misuse |
-| Google | 50 million | Consent Violations |
-| British Airways | 22 million | Security breach |
-| Marriott | 18.4 million | Breach exposing guest data |
+| TikTok | 530 million | Data transfer violations |
+| Meta | 405 million | Children's data exposed by default |
+| Google | 380 million | Cookie consent violations (3rd CNIL fine) |
 
 
 ---
