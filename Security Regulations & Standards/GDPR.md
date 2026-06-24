@@ -22,7 +22,7 @@
 | 12 | Pseudonymized data (if re-linkable) |
 > SIEM logs, PCAP data and endpoint telemetry are full of personal data under GDPR
 
-- Some data gets a higher level of protetion
+- Some data gets a higher level of protection
 
 |Category  | Examples|
 |-----| -----|
