@@ -29,8 +29,8 @@
 ## PHI
 - Protected Health Information is any info that connects a person to their health data. 
 
-| | |  18 PHI Identifiers | 
-|-----|
+| |  18 PHI Identifiers | 
+|-----| ----- |
 | 1 | Name|
 | 2 | Geographic data |
 | 3 | Dates: Birth, death, admit|
