@@ -63,7 +63,7 @@
 | Payment for services |
 | Healthcare operations |
 | With explicit patient authorization |
->When investigating an incident only access what's necessary.
+>When investigating an incident only access what's necessary. <br>
 
 
 🔒 Rule 2: The Security Rule
@@ -75,14 +75,14 @@
 | Risk analysis must be conducted regularly |
 | Worlforce security training required |
 | Access mgmt policies required |
-| Incident response procedures required |
+| Incident response procedures required | <br>
 
 | Physical Safeguards | 
 |-----|
 | Facility access controls |
 | Workstation security policies |
 | Device and media controls |
-| Server room physical protection |
+| Server room physical protection | <br>
 
 
 | Technical Safeguard | Meaning | SOC Tool |
@@ -90,7 +90,7 @@
 | Access controls | Only authorized users touch PHI | IAM, PAM, MFA |
 | Audit controls| Log all PHI access | SIEM, logging |
 | Integrity controls | PHI can't be altered without detection | File integrity monitoring | 
-| Transmission security | Encrypt PHI in transit | TLS, VPN monitoring |
+| Transmission security | Encrypt PHI in transit | TLS, VPN monitoring | <br>
 
 🚨 Rule 3: The Breach Notification Rule
 - Rule that makes HIPAA a SOC operations problem
