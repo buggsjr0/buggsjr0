@@ -15,8 +15,6 @@
 ---
 ## Who Does HIPPA Cover?
 
-- Some data gets a higher level of protection
-
 | Covered Entities  | Business Associates |
 |-----| -----|
 | Hospitals | Cloud providers storing PHI|
