@@ -3,7 +3,6 @@
 - HIPPA is the law protecting paitent health data. HITRUST is the certification that proves your security program meets HIPAA requirements.
 ---
 ## HIPAA vs. HITRUST<br>
-- Broad definition of personal data: 
 
 | HIPPA | HITRUST |
 |-----| -----|
