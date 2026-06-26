@@ -1,4 +1,4 @@
-# HIPPA (HITRUST) <br/>
+# HIPAA (HITRUST) <br/>
 
 - HIPPA is the law protecting paitent health data. HITRUST is the certification that proves your security program meets HIPAA requirements.
 ---
@@ -12,7 +12,7 @@
 | Enforced by HHR/OCR (government) | Audited by HITRUST assessors (private) |
 
 ---
-## Who Does HIPPA Cover?
+## Who Does HIPAA Cover?
 
 | Covered Entities  | Business Associates |
 |-----| -----|
