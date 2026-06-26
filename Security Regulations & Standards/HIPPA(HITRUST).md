@@ -4,7 +4,7 @@
 ---
 ## HIPAA vs. HITRUST<br>
 
-| HIPAA | HITRUST |
+| HIPAA | HITRUST | 
 |-----| -----|
 | Federal Law (must comply) | Private Framework (choose to certify) | 
 | Sets the rules| Proves you follow the rules|
