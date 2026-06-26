@@ -212,7 +212,7 @@ Healthcare is one of the most target sectors for ransomware.
 
 
 
-
+--- 
 
 | Role | Who They Are | SOC Importance |
 |-----| ----- | ----- |
