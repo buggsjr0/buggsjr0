@@ -208,79 +208,33 @@ Healthcare is one of the most target sectors for ransomware.
 - Medical devices running outdated OS
 - Life or death urgency creates pressure to restore immediately
 > [!TIP]
-> Indicators to watch: Lateral movement toward PHI, Large volume encryption activity on file servers, known ransomware communication, backup deletions command and RDP brute force attempts. 
+> Indicators to watch: Lateral movement toward PHI, large volume encryption activity on file servers, known ransomware communication, backup deletions command and RDP brute force attempts. 
 
 
+💊 #2 — Insider Threat
+Healthcare has high insider threat risk:
+- Large workforce with legitimate PHI access
+- Disgruntled employees with broad access
+- Credential sharing
+- Family member record access
+> [!TIP]
+> Indicators to watch: Access to records outside of normal hours, bulk record access, user accessing records of patients they're treating, PHI access from unusual locations or devices.
 
+
+🎣 #3 — Phishing → Credential Theft
+- Healthcare workers underpressure
+- "Patient referral" themed lures highly effective
+- Stolen Credentials
+- MFA bypass increasingly used by attackers
+
+
+💻 #4 — Medical Device Compromise
+- MRI machines, infusion pumps, monitoring sytems
+- Often running legacy OS, unpatched and unmanaged
+- Rarely have EDR or logging
+- Connected to clinical networks -> lateral movement risk
+- IoMT (Internet of Medical Things) is a blind spot
 --- 
 
-| Role | Who They Are | SOC Importance |
-|-----| ----- | ----- |
-| Data Controller | The organization: decides why and how data is processed | Who gets notified in a breach? Controller is responsible|
-| Data Processor | Vendor/third party processing data on tour behalf (cloud providers, SaaS tools) | Breach at processor still triggers Controller's obligations |
->[!NOTE]
->If your SIEM vendor, EDR vendor or cloud logging provider gets breached and they hold your organizations personal data, the 72 hour clock may still start. Third party breach monitoring is important 
-
-## GDPR Fines
-
-|Tier| Simplified Description|
-|-----| -----|
-| 1 | Up to 10 million Euros or 2% of global annual revenue (Whichever is higher)   |
-| 2 | Up to 20 million Euros or 4% of global annual revenue (Whichever is higher) |
-
-- Real World Examples
-
-| Company | Fine (Euros) | Reason |
-|-----| -----| ----- |
-| Meta | 1.2 billion | Data transfer violations |
-| Amazon | 746 million | Advertising data misuse |
-| TikTok | 530 million | Data transfer violations |
-| Meta | 405 million | Children's data exposed by default |
-| Google | 380 million | Cookie consent violations (3rd CNIL fine) |
-
-
----
-## Audit and Certifications
-<details>
-<summary>Regular Audits</summary>
-- Reactive, triggered by complaints. <br>
-- Reported by breaches <br>
-- DPAs also run sector sweeps <br>
-</details>
-
-<details>
-<summary>Certifications (Voluntary) </summary>
-- Europrivacy - EDPB approved<br>
-- ISO/IEC 27701 - privacy mgmt<br>
-- National schemes (CNIL, etc.)<br>
-</details>
-
-<details>
-<summary>Mandatory Obligations </summary>
-- DPO if required (Art. 37)<br>
-- DPIA for high risk (Art. 35)<br>
-- Record of processing (Art. 30)<br>
-</details>
-
-<details>
-<summary>What Companies Actually Do </summary>
-- Internal annual privacy review<br>
-- Hire a consultant for gap audits<br>
-- Certify if customers demand it<br>
-</details>
-
----
-
-## GDPR vs Other frameworks<br>
-
-| | GDPR | PCI DSS | NIST 800-53 |
-| ----- |-----| -----| ----- |
-| Focus | Privacy of personal data | Payment card security | General security controls
-| Mandatory | Yes (if EU data involved) | Yes (if process cards)  | Yes (Federal systems)
-| 72hr breach notification | Yes | Yes (card brands) | Varies |
-| Fines | Up to 4% global revenue| Fines + card processing suspension | Varies |
-| Who owns it | EU regulators | Card brands (Visa, Mastercard etc.) | U.S. Government (NIST)
-
----
 ### Key Takeaway 
-GDPR transforms privacy into a right and security operations responsibility. Every time an alert touches a system that hold EU personal data, a 72 hour clock could begin it's countdown. Understanding GDPR means honoring user rights, a faster triage, better documentation and process data lawfully. 
+HIPAA makes healthcare data the most legally protected personal information in the US and HITRUST is how serious healthcare organizations prove their protection is real. The data being protected (PHI) is highly valuable to attackers and triggers strict legal obligations when compromised. Investigations and how they're conducted, what you access, how long you retain it and how throughly you documented is necessary for compliance. In healthcare security accurate and swift responses means more time for legal teams to manage a 60 day notification window, higher penalty fees and potential placement on unsatisfactory lists. 
