@@ -188,7 +188,7 @@ HITRUST organizes controls into 19 domains, the following are common for SOC ana
 
 <details>
 <summary>11: Incident Mgmt</summary>
-- AFormal IR policy required <br>
+- A formal IR policy required <br>
 - IR team must be designated <br>
 - Incidents must be categorized by severity <br>
 - PHI involved incidents must have a HIPAA breach assessment<br>
