@@ -26,49 +26,115 @@
 >[!NOTE]
 >If your organization provides security services to a healthcare company and your tools touch their data, than you're a business associate and HIPAA applies.
 ---
-## 7 GDPR Principles
+## PHI
+- Protected Health Information is any info that connects a person to their health data. 
 
-|  |Category  | Examples|
-|-----|-----| -----|
-| 1 | Lawfulness, Fairness, Transparency | Have a legal basis. Tell people clearly |
-| 2 | Purpose Limitation | Collect data for one specific reason |
-| 3 | Data Minimization | Only collect what is needed |
-| 4 | Accuracy | Keep data accurate and up to date |
-| 5 | Storage Limitation | Don't keep data longer than necessary |
-| 6 | Integrity & Confidentiality | Protect data with appropriate security |
-| 7 | Accountabiliity | You must be able to prove you're doing all the above |
+| | |  18 PHI Identifiers | 
+|-----|
+| 1 | Name|
+| 2 | Geographic data |
+| 3 | Dates: Birth, death, admit|
+| 4 | Phone numbers |
+| 5 | Fax numbers |
+| 6 | Email addresses |
+| 7 | Social Security numbers |
+| 8 | Medical record numbers |
+| 9 | Health plan beneficiary numbers |
+| 10 | Account numbers |
+| 11 | Cert/license numbers |
+| 12 | License plates |
+| 13 | Device identifiers/serial numbers|
+| 14 | URLs |
+| 15 | IP addresses |
+| 16 | Biometric identifiers |
+| 17 | Full face photos|
+| 18 | Any unique identifers |
 >[!NOTE]
->Documentation is what makes accountability real. 
+>IP addresses are PHI in a healthcare context. Your logs, SIEM data and network captures in a healthcare environment are also PHI.  
 
 ---
-## Lawful Basis
-GDPR states organizations must have a legitimate reason for holding personal data:
+## Impactful HIPAA Rules FOR SOC Analyst
+📋 Rule 1: The Privacy Rule
+- Controls who can access PHI and for what reason
 
-|     | Category  | Examples | 
-|-----|-----| -----|
-| 1 | Consent | Person explicitly agreed |
-| 2 | Contract| Need to fulfill a service |
-| 3 | Legal obligation | Required by law |
-| 4 | Vital interests | Protecting someone's life |
-| 5 | Public Task | Official government function |
-| 6 | Legitimate interest | Organizational need |
->When investigating an incident involving personal data, understanding why the organization holds that data helps scope the breach and its GDPR impact. 
+| PHI can only be used for | 
+|-----|
+| Treatment of the patient |
+| Payment for services |
+| Healthcare operations |
+| With explicit patient authorization |
+>When investigating an incident only access what's necessary.
+
+
+🔒 Rule 2: The Security Rule
+- Security rule has three categories of safeguards:
+
+| Admin Safeguards | 
+|-----|
+| Security officer must be designated |
+| Risk analysis must be conducted regularly |
+| Worlforce security training required |
+| Access mgmt policies required |
+| Incident response procedures required |
+
+| Physical Safeguards | 
+|-----|
+| Facility access controls |
+| Workstation security policies |
+| Device and media controls |
+| Server room physical protection |
+
+
+| Technical Safeguard | Meaning | SOC Tool |
+|-----| -----| ----- |
+| Access controls | Only authorized users touch PHI | IAM, PAM, MFA |
+| Audit controls| Log all PHI access | SIEM, logging |
+| Integrity controls | PHI can't be altered without detection | File integrity monitoring | 
+| Transmission security | Encrypt PHI in transit | TLS, VPN monitoring |
+
+🚨 Rule 3: The Breach Notification Rule
+- Rule that makes HIPAA a SOC operations problem
+
+| Breach Confirmed | 
+|-----|
+| Individuals affected must be notified within 60 days of duscovery |
+| HHS (Dept of Health & Human Svc) notified. Annualy for breaches under 500 and within 60 days for breaches greater than 500 individuals |
+| Media notification required if affects 500+ individuals in a state |
+>[!NOTE]
+>HIPAA's 60 day clock starts at discovery  
 
 ---
 
-## The 8 individual Rights
-Under GDPR, every EU resident has these rights over their data:
+## 4 Levels of HIPAA Violations
+-Not all HIPAA failures are viewed equally:
 
-| Right | Explanation  | SOC Relevance | 
-|-----|-----| -----|
-| Right to be informed | Know what data is collected and why | Privacy notice required|
-| Right of access | Request copy of their data | Can't be obstructed during incident  |
-| Right to rectification | Fix inaccurate data | Data integrity matters |
-| Right to erasure | Ability to be forgotten | Deleted, but may not be gone from backups |
-| Right to restrict processing | Pause how data is used | Could impact active investigations |
-| Right to data portability | Data in a usable format | Secure transfer requirements |
-| Right to object | Stop certain data processing | Affects marketing/profiling systems |
-| Right not to be profiled | No automated decisions affecting them | AI/ML systems under scrutiny |
+<details>
+<summary>Tier 1</summary>
+- Didn't know & coudn't have known. <br>
+- $100 - $50,000 per violation <br>
+- "Mistake with no known negligence" <br>
+</details>
+
+<details>
+<summary>Tier 2</summary>
+- Sould have known but didn't. <br>
+- $1,000 - $50,000 per violation <br>
+- "Reasonable diligence could have caught it" <br>
+</details>
+
+<details>
+<summary>Tier 3</summary>
+- Willful neglect, but corrected <br>
+- $10,000 - $50,000 per violation <br>
+- "Knew there was a problem and eventually fixed it" <br>
+</details>
+
+<details>
+<summary>Tier 4</summary>
+- Willful neglect, and not corrected <br>
+- $50,000 per violation <br>
+- Annual cap of $1.9 million per violation and criminal referral possible. <br>
+</details>
 
 
 ---
@@ -135,7 +201,6 @@ Possibly the most operationally cirtical GDPR requirement for SOC analysts
 - Reactive, triggered by complaints. <br>
 - Reported by breaches <br>
 - DPAs also run sector sweeps <br>
-
 </details>
 
 <details>
