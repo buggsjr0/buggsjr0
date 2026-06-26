@@ -6,7 +6,7 @@
 
 | HIPAA | HITRUST |
 |-----| -----|
-| Federasl Law (must comply) | Private Framework (choose to certify) | 
+| Federal Law (must comply) | Private Framework (choose to certify) | 
 | Sets the rules| Proves you follow the rules|
 | "Here's what the law requires" | "Here's a rigorous way to prove it's being done" | 
 | Enforced by HHR/OCR (government) | Audited by HITRUST assessors (private) |
