@@ -157,7 +157,7 @@
 
 ---
 ## HITRUST Control Categories for SOC
-- HITRUST organizes controls into 19 domains, the following are for SOC analysts:
+HITRUST organizes controls into 19 domains, the following are common for SOC analysts:
 
 <details>
 <summary>7: Vulnerability Mgmt</summary>
