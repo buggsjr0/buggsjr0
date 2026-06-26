@@ -141,20 +141,64 @@
 
 
 ---
-## 72 Hour Breach Notification Rule
-Possibly the most operationally cirtical GDPR requirement for SOC analysts
+## HITRUST, The Certification Framework
+- Why HITRUST exist to provide a framework on "how to know if a vendor is actually secure. HITRUST solves this by:
 
-| | Breach Occurs|
-|-----| -----|
-| T+0 | Breach detected and confirmed |
-| T+24 | Internal escalation: Legal, Privacy, CISO, Leadership notified|
-| T+48 | Draft notification being prepared. Scope of personal data affected assessment |
-| T+72 | Supervisory authority must be notified (ICO in UK, CNIL in France, BfDI in Germany) |
+| Taking Requirements From|
+|----- |
+| HIPAA Security Rule |
+| NIST 800-53 |
+| ISO 27001 |
+| PCI DSS |
+| GDPR |
+| Other Frameworks |
 >[!NOTE]
->If individuals at high risk, notify them as well. No fixed deadline, but "without undue delay"
+>Instead of proving HIPAA, NIST and PCI compliance separately, one HITRUST certification covers them all. 
 
 ---
-## What triggers the 72 hour clock?
+## HITRUST Control Categories for SOC
+- HITRUST organizes controls into 19 domains, the following are for SOC analysts:
+
+<details>
+<summary>7: Vulnerability Mgmt</summary>
+- Regular vulnerability scanning required <br>
+- Critical vulnerabilities pathched within defined SLAs <br>
+- Penetration testing required <br>
+- Remediation tracked and verified <br>
+</details>
+
+<details>
+<summary>9: Access Control</summary>
+- Unique user IDs mandatory <br>
+- Privileged access strictly controlled <br>
+- Remote access requires MFA <br>
+- Access reviews conducted regularly<br>
+- Shared accounts prohibited<br>
+</details>
+
+<details>
+<summary>10: Audit Logging & Monitoring</summary>
+- All PHI access must be logged <br>
+- Logs must be reviewed regularly <br>
+- SIEM or equivalent required for high risk orgs <br>
+- Log integrity<br>
+- Log retention is minimum of 6 years<br>
+- Suspicious activity must generate alerts<br>
+</details>
+
+<details>
+<summary>11: Incident Mgmt</summary>
+- AFormal IR policy required <br>
+- IR team must be designated <br>
+- Incidents must be categorized by severity <br>
+- PHI involved incidents must have a HIPAA breach assessment<br>
+- Lessons learned process mandated<br>
+- IR plan tested annually<br>
+</details>
+
+
+
+
 | | Triggers notification|
 | ----- | ----- |
 | ✅ | Unauthorized access to personal data |
