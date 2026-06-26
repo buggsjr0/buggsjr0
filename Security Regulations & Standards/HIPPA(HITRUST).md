@@ -75,7 +75,9 @@
 | Risk analysis must be conducted regularly |
 | Worlforce security training required |
 | Access mgmt policies required |
-| Incident response procedures required | <br>
+| Incident response procedures required | 
+
+
 
 | Physical Safeguards | 
 |-----|
@@ -83,6 +85,7 @@
 | Workstation security policies |
 | Device and media controls |
 | Server room physical protection | <br>
+
 
 
 | Technical Safeguard | Meaning | SOC Tool |
