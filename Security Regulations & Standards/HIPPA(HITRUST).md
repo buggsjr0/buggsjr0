@@ -196,25 +196,23 @@ HITRUST organizes controls into 19 domains, the following are common for SOC ana
 - IR plan tested annually<br>
 </details>
 
-
-
-
-| | Triggers notification|
-| ----- | ----- |
-| ✅ | Unauthorized access to personal data |
-| ✅ | Ransomware encrypting personal data |
-| ✅ | Data exfiltration |
-| ✅ | Accidental exposure of personal data |
-| ✅ | Lost/stolen device containing personal data |
-| ✅ | Insider threat accessing data without authorization |
-| ❌ | Attack on system with no personal data |
-| ❌ | DDoS with no data access |
-| ❌ | Incident fully contained with no data exposure | 
->[!NOTE]
->The clock starts when the organization becomes aware, not when it can fully confirm scope. This is why SOC triage speed is a GDPR compliance issue. 
-
 ---
-## GDPR's Two Enforcers
+## Common Healthcare Threat Landscape
+When supporting healthcrare, these are some of the possible threats:
+
+🏥 #1 — Ransomware
+Healthcare is one of the most target sectors for ransomware.
+- PHI has high black market value ($250 - $1000 per record vs $% for a credit card
+- Hospitals can't afford downtime and are more likely to pay
+- Legacy systems, unpatched devices are abundant
+- Medical devices running outdated OS
+- Life or death urgency creates pressure to restore immediately
+> [!TIP]
+> Indicators to watch: Lateral movement toward PHI, Large volume encryption activity on file servers, known ransomware communication, backup deletions command and RDP brute force attempts. 
+
+
+
+
 
 | Role | Who They Are | SOC Importance |
 |-----| ----- | ----- |
