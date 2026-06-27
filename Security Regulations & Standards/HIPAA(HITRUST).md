@@ -142,7 +142,7 @@
 
 ---
 ## HITRUST, The Certification Framework
-- Why HITRUST exist? To provide a framework on "how to know if a vendor is actually secure. HITRUST solves this by:
+- Why HITRUST exist? To provide a framework on "how to know if a vendor is actually secure. HITRUST solves this by: 
 
 | Taking Requirements From|
 |----- |
