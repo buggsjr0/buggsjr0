@@ -98,7 +98,7 @@
 🚨 Rule 3: The Breach Notification Rule
 - Rule that makes HIPAA a SOC operations problem
 
-| Breach Confirmed | 
+| Breach Confirmed |  
 |-----|
 | Individuals affected must be notified within 60 days of duscovery |
 | HHS (Dept of Health & Human Svc) notified. Annualy for breaches under 500 and within 60 days for breaches greater than 500 individuals |
