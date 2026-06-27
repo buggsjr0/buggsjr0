@@ -225,7 +225,7 @@ Healthcare has high insider threat risk:
 - Healthcare workers underpressure
 - "Patient referral" themed lures highly effective
 - Stolen Credentials
-- MFA bypass increasingly used by attackers
+- MFA bypass increasingly used by attackers 
 
 
 💻 #4 — Medical Device Compromise
