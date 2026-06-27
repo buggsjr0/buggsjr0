@@ -20,7 +20,7 @@
 | Docters Office's| Billing companies |
 | Health insurance companies| IT vendors with PHI access |
 | Pharmacies | Law firms handling health cases |
-| Health clincs | Any company that that touch PHI |
+| Health clincs | Any company that that touch PHI | 
 
 
 >[!NOTE]
