@@ -43,7 +43,7 @@ Run this **PowerShell script** as Administrator. You can download and execute it
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/kenbananola/ken-remediation-scripts/main/wireshark-winpcap-force-remove.ps1" -OutFile "$env:TEMP\wireshark-remove.ps1"; PowerShell -ExecutionPolicy Bypass -File "$env:TEMP\wireshark-remove.ps1"
 ```
 
-Or view/download the script manually here: [wireshark-winpcap-force-remove.ps1](https://github.com/kenbananola/ken-remediation-scripts/blob/main/wireshark-winpcap-force-remove.ps1)
+Or view/download the script manually here: [wireshark-winpcap-force-remove.ps1](https://github.com/buggsjr0/buggsjr0/blob/main/Automation/Remediation_wireshark_uninstall.ps1)
 
 ---
 
