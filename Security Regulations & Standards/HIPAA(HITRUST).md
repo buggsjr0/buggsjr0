@@ -12,7 +12,7 @@
 | Enforced by HHR/OCR (government) | Audited by HITRUST assessors (private) |
 
 ---
-## Who Does HIPAA Cover?
+## Who Does HIPAA Cover? 
 
 | Covered Entities  | Business Associates |
 |-----| -----|
