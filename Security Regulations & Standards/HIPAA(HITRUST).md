@@ -153,7 +153,7 @@
 | GDPR |
 | Other Frameworks |
 >[!NOTE]
->Instead of proving HIPAA, NIST and PCI compliance separately, one HITRUST certification covers them all. 
+>Instead of proving HIPAA, NIST and PCI compliance separately, one HITRUST certification covers them all.  
 
 ---
 ## HITRUST Control Categories for SOC
