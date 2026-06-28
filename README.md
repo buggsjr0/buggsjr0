@@ -4,7 +4,7 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 
 
 
-## ⚠️ Vulnerability Management Projects
+## ⚠️ Vulnerability Management Projects 
 
 - **[Vulnerability Management Program Implementation](https://github.com/buggsjr0/Vulnerability-Management-Program)**
 - **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/buggsjr0/Programmatic-Vulnerability-Remediations-PowerShell-and-BASH-/blob/main/README.md)**
