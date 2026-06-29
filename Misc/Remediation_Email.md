@@ -10,7 +10,7 @@ All commands below should be run as **Administrator**.
 
 ### 1. Windows OS Updates (Re-enable Automatic Updates)
 
-Run this in **Command Prompt (Admin)**:
+Run this in **Command Prompt (Admin)**: 
 ```shell
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v ScheduledInstallDay /t REG_DWORD /d 0 /f; reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoUpdate /t REG_DWORD /d 0 /f; reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v AUOptions /t REG_DWORD /d 4 /f
 ```
