@@ -4,7 +4,7 @@
 
 Based on our initial vulnerability scan and assessment, we have prepared remediation commands and scripts to help you tackle the initial remediation efforts. These can be integrated into your deployment platform (e.g., SCCM). Please test them before deploying to production.
 
-All commands below should be run as **Administrator**.
+All commands below should be run as **Administrator**. 
 
 ---
 
