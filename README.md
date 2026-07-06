@@ -1,6 +1,6 @@
 # <a href="https://github.com/buggsjr0/">James Buggs</a>'s IT and Cybersecurity Project Portfolio 🔐
 
-I'm passionate about cybersecurity and enjoy tackling complex challenges through hands-on projects. From vulnerability management, threat detection, STIG implementations and automating cybersecurity with a SOC agent. These projects allow me to dive deep into the ever-evolving landscape of cybersecurity. All labs are conducted in a live real world environment, which allows me to put theory into proof of work. Please feel free to check out the work I’ve put into enhancing security operations & processes. Included in other repositories are passion projects utilizing languages such as: SQL, Python and Javascript.
+I'm passionate about cybersecurity and enjoy tackling complex challenges through hands-on projects. From vulnerability management, threat detection, STIG implementations and automating cybersecurity with a SOC agent. These projects allow me to dive deep into the ever-evolving landscape of cybersecurity. All labs are conducted in a live real world environment, which allows me to put theory into proof of work. Please feel free to check out the work I’ve put into enhancing security operations & processes. Included in other repositories are passion projects utilizing languages such as: SQL, Python and Javascrip
 
 
 
