@@ -17,6 +17,9 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 - **[Live Threat Hunting: Cargo Hold](https://github.com/buggsjr0/Threat-Hunting-Scenario---Port_of_Azuki)**
 <hr/>
 
+## 🍯 Honeypot Lab 
+- **[Live exposed Honeypot]( 
+
 ## 🤖 🐍 Cybersecurity Automation with Python
 
 - **[AI Threat Hunting Bot for Defender & Azure ](https://github.com/buggsjr0/Agentic-SOC-Analyst/blob/main/README.md)**
