@@ -18,7 +18,7 @@ I'm passionate about cybersecurity and enjoy tackling complex challenges through
 <hr/>
 
 ## 🍯 Honeypot Lab 
-- **[Live exposed Honeypot]( 
+
 
 ## 🤖 🐍 Cybersecurity Automation with Python
 
